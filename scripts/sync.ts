@@ -177,6 +177,82 @@ async function runOnce(db: Db, dryRun: boolean): Promise<void> {
     const studio: TalksFile = { event: config.event, talks: active.map(toTalk) };
     writeFileSync(config.studioTalks, JSON.stringify(studio, null, 2) + "\n");
 
+    // Drive is indexed up front so each talk can be uploaded as soon as its
+    // videos are rendered (a long first run fills Drive progressively).
+    const drive = NO_UPLOAD ? null : new AvDrive();
+    const index = drive ? await drive.index() : null;
+    if (index) console.log(`Drive: ${index.rooms} rooms, ${index.cards.size} intro cards, ${index.animations.size} talks with animations`);
+    else console.log("Skipping Drive (--no-upload).");
+    const synced = new Set<string>();
+
+    const syncDrive = async (code: string) => {
+      if (!drive || !index || synced.has(code)) return;
+      synced.add(code);
+      const t = db.talk(code);
+      if (!t) return;
+      const copies = index.animations.get(t.code) ?? [];
+      const keep = new Set<string>();
+      const wanted = isActive(t) && !t.do_not_record ? variantsFor(t.room) : [];
+
+      if (wanted.length) {
+        const slot = index.cards.get(t.code);
+        if (!slot) {
+          if (copies.length || db.outputs(t.code).some((o) => o.out_file)) {
+            db.setStatus(runId, t.code, "drive: waiting for its intro card to appear in Drive (room/day unknown)");
+          }
+          return;
+        }
+        for (const v of wanted) {
+          const size = sizeTag(v);
+          const out = db.output(t.code, size);
+          if (!out?.out_file || !existsSync(out.out_file)) continue;
+          const name = animationName(slot.cardName, size);
+          const where = `${slot.where}/${ANIMATION_FOLDER}/${name}`;
+          const sameSize = copies.filter((c) => c.size === size && !keep.has(c.id));
+          const existing: AnimFile | undefined = sameSize.find((c) => c.id === out.drive_file_id) ?? sameSize[0];
+          try {
+            let fileId: string;
+            if (existing) {
+              const needsMove = slot.animFolderId === null || existing.parentId !== slot.animFolderId || existing.name !== name;
+              const needsContent = existing.md5 !== out.out_md5;
+              if (needsMove || needsContent) await drive.update(existing, slot, name, needsContent ? out.out_file : null);
+              if (needsMove) log(t.code, "moved", `${existing.where}/${ANIMATION_FOLDER}/${existing.name}`, where);
+              if (needsContent) log(t.code, "uploaded", existing.md5, `${size} ${out.out_md5}`);
+              fileId = existing.id;
+            } else {
+              fileId = await drive.create(slot, name, out.out_file);
+              log(t.code, "uploaded", null, where);
+            }
+            keep.add(fileId);
+            db.upsertOutput(t.code, size, { drive_file_id: fileId, drive_path: where, drive_md5: out.out_md5, uploaded_at: nowIso() });
+            if (db.talk(t.code)!.status?.startsWith("drive")) db.setStatus(runId, t.code, null);
+          } catch (err) {
+            db.setStatus(runId, t.code, `drive ${size}: ${errMsg(err)}`);
+            bump("problem");
+          }
+        }
+      }
+
+      // Anything else for this talk is stale: removed / do-not-record talks,
+      // sizes the room no longer has, and duplicates.
+      for (const c of copies.filter((c) => !keep.has(c.id))) {
+        if (wanted.some((v) => sizeTag(v) === c.size) && !index.cards.has(t.code)) continue;
+        if (wanted.some((v) => sizeTag(v) === c.size) && !db.output(t.code, c.size)?.out_file) continue;
+        try {
+          await drive.trash(c.id);
+          log(t.code, "trashed", `${c.where}/${ANIMATION_FOLDER}/${c.name}`, null);
+        } catch (err) {
+          db.setStatus(runId, t.code, `drive: trash failed: ${errMsg(err)}`);
+        }
+      }
+      for (const o of db.outputs(t.code)) {
+        if (o.drive_file_id && !keep.has(o.drive_file_id) && !wanted.some((v) => sizeTag(v) === o.size)) {
+          if (o.out_file) rmSync(o.out_file, { force: true });
+          db.deleteOutput(t.code, o.size);
+        }
+      }
+    };
+
     // 3. Render what changed: one video per talk and size
     const base = renderBaseKey();
     type Job = { t: TalkRow; v: Variant; out: OutputRow | undefined };
@@ -209,7 +285,9 @@ async function runOnce(db: Db, dryRun: boolean): Promise<void> {
         bump("problem");
         console.error(`\r  ${tag} render failed: ${errMsg(err)}`);
       }
+      if (jobs[i + 1]?.t.code !== t.code) await syncDrive(t.code);
     }
+
 
     // Sizes a talk no longer needs (its room changed screens) are dropped locally.
     for (const o of db.outputs()) {
@@ -221,78 +299,11 @@ async function runOnce(db: Db, dryRun: boolean): Promise<void> {
       }
     }
 
-    // 4. Drive
-    if (NO_UPLOAD) {
-      console.log("Skipping Drive (--no-upload).");
-    } else {
-      const drive = new AvDrive();
-      const index = await drive.index();
-      console.log(`Drive: ${index.rooms} rooms, ${index.cards.size} intro cards, ${index.animations.size} talks with animations`);
+    // 4. Drive: everything not handled during rendering (unchanged talks whose
+    // Drive copy is missing or misplaced, removed and do-not-record talks).
+    if (drive) {
       const rows = db.talks().filter((t) => !ONLY.size || ONLY.has(t.code));
-
-      await pool(rows, 3, async (t) => {
-        const copies = index.animations.get(t.code) ?? [];
-        const keep = new Set<string>();
-        const wanted = isActive(t) && !t.do_not_record ? variantsFor(t.room) : [];
-
-        if (wanted.length) {
-          const slot = index.cards.get(t.code);
-          if (!slot) {
-            if (copies.length || db.outputs(t.code).some((o) => o.out_file)) {
-              db.setStatus(runId, t.code, "drive: waiting for its intro card to appear in Drive (room/day unknown)");
-            }
-            return;
-          }
-          for (const v of wanted) {
-            const size = sizeTag(v);
-            const out = db.output(t.code, size);
-            if (!out?.out_file || !existsSync(out.out_file)) continue;
-            const name = animationName(slot.cardName, size);
-            const where = `${slot.where}/${ANIMATION_FOLDER}/${name}`;
-            const sameSize = copies.filter((c) => c.size === size && !keep.has(c.id));
-            const existing: AnimFile | undefined = sameSize.find((c) => c.id === out.drive_file_id) ?? sameSize[0];
-            try {
-              let fileId: string;
-              if (existing) {
-                const needsMove = slot.animFolderId === null || existing.parentId !== slot.animFolderId || existing.name !== name;
-                const needsContent = existing.md5 !== out.out_md5;
-                if (needsMove || needsContent) await drive.update(existing, slot, name, needsContent ? out.out_file : null);
-                if (needsMove) log(t.code, "moved", `${existing.where}/${ANIMATION_FOLDER}/${existing.name}`, where);
-                if (needsContent) log(t.code, "uploaded", existing.md5, `${size} ${out.out_md5}`);
-                fileId = existing.id;
-              } else {
-                fileId = await drive.create(slot, name, out.out_file);
-                log(t.code, "uploaded", null, where);
-              }
-              keep.add(fileId);
-              db.upsertOutput(t.code, size, { drive_file_id: fileId, drive_path: where, drive_md5: out.out_md5, uploaded_at: nowIso() });
-              if (db.talk(t.code)!.status?.startsWith("drive")) db.setStatus(runId, t.code, null);
-            } catch (err) {
-              db.setStatus(runId, t.code, `drive ${size}: ${errMsg(err)}`);
-              bump("problem");
-            }
-          }
-        }
-
-        // Anything else for this talk is stale: removed / do-not-record talks,
-        // sizes the room no longer has, and duplicates.
-        for (const c of copies.filter((c) => !keep.has(c.id))) {
-          if (wanted.some((v) => sizeTag(v) === c.size) && !index.cards.has(t.code)) continue;
-          if (wanted.some((v) => sizeTag(v) === c.size) && !db.output(t.code, c.size)?.out_file) continue;
-          try {
-            await drive.trash(c.id);
-            log(t.code, "trashed", `${c.where}/${ANIMATION_FOLDER}/${c.name}`, null);
-          } catch (err) {
-            db.setStatus(runId, t.code, `drive: trash failed: ${errMsg(err)}`);
-          }
-        }
-        for (const o of db.outputs(t.code)) {
-          if (o.drive_file_id && !keep.has(o.drive_file_id) && !wanted.some((v) => sizeTag(v) === o.size)) {
-            if (o.out_file) rmSync(o.out_file, { force: true });
-            db.deleteOutput(t.code, o.size);
-          }
-        }
-      });
+      await pool(rows, 3, (t) => syncDrive(t.code));
     }
 
     db.finishRun(runId, "ok", counts);
