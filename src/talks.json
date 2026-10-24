@@ -1,0 +1,3434 @@
+{
+  "event": "devcon8",
+  "talks": [
+    {
+      "code": "RPAPTP",
+      "id": "opening-ceremony-welcome-to-devcon-8-india",
+      "title": "Opening Ceremony: Welcome to Devcon 8 India!",
+      "room": "Main Stage (Lotus)",
+      "start": 1793680200000,
+      "doNotRecord": false,
+      "card": "cards/RPAPTP.jpg"
+    },
+    {
+      "code": "C7S83U",
+      "id": "sounya-sharma-originals-bollywood-covers",
+      "title": "Sounya Sharma [originals + bollywood covers]",
+      "room": "Music stage",
+      "start": 1793687400000,
+      "doNotRecord": false,
+      "card": "cards/C7S83U.jpg"
+    },
+    {
+      "code": "QUHRZV",
+      "id": "wallet-security-past-present-and-future",
+      "title": "Wallet Security: Past, Present & Future",
+      "room": "Community Led Stage",
+      "start": 1793687400000,
+      "doNotRecord": false,
+      "card": "cards/QUHRZV.jpg"
+    },
+    {
+      "code": "FCZDAJ",
+      "id": "community-hubs-opening",
+      "title": "🛖 Community Hubs Opening",
+      "room": "Jasmine Stage 4",
+      "start": 1793688000000,
+      "doNotRecord": false,
+      "card": "cards/FCZDAJ.jpg"
+    },
+    {
+      "code": "QAJPU8",
+      "id": "builder-enablement-x-buidlguidl-opening",
+      "title": "Builder Enablement x BuidlGuidl Opening",
+      "room": "Workshop 1",
+      "start": 1793688000000,
+      "doNotRecord": false,
+      "card": "cards/QAJPU8.jpg"
+    },
+    {
+      "code": "NX3E73",
+      "id": "desci-hub-the-world-of-desci",
+      "title": "🛖 DeSci Hub - The World of DeSci",
+      "room": "Jasmine Stage 4",
+      "start": 1793688300000,
+      "doNotRecord": false,
+      "card": "cards/NX3E73.jpg"
+    },
+    {
+      "code": "ER8EHM",
+      "id": "resilient-networking-hub-building-resilient-ethereum",
+      "title": "🛖 Resilient Networking Hub - Building Resilient Ethereum",
+      "room": "Workshop 2",
+      "start": 1793688300000,
+      "doNotRecord": false,
+      "card": "cards/ER8EHM.jpg"
+    },
+    {
+      "code": "FJKNCP",
+      "id": "ai-x-ethereum-where-we-are-now",
+      "title": "AI x Ethereum: where we are now",
+      "room": "Workshop 1",
+      "start": 1793688300000,
+      "doNotRecord": false,
+      "card": "cards/FJKNCP.jpg"
+    },
+    {
+      "code": "9SYFAJ",
+      "id": "the-last-mile-of-ethereum-validator-consolidations",
+      "title": "The last mile of Ethereum validator consolidations",
+      "room": "Lightning Stage",
+      "start": 1793688300000,
+      "doNotRecord": false,
+      "card": "cards/9SYFAJ.jpg"
+    },
+    {
+      "code": "BYHYXS",
+      "id": "from-16-minutes-to-seconds-a-roadmap-to-fast-finality-on-ethereum",
+      "title": "From 16 Minutes to Seconds: A Roadmap to Fast Finality on Ethereum",
+      "room": "Lightning Stage",
+      "start": 1793688900000,
+      "doNotRecord": false,
+      "card": "cards/BYHYXS.jpg"
+    },
+    {
+      "code": "7W9ZC7",
+      "id": "adegbenga-classic-bollywood-hindi-set",
+      "title": "Adegbenga [classic bollywood hindi set]",
+      "room": "Music stage",
+      "start": 1793689200000,
+      "doNotRecord": false,
+      "card": "cards/7W9ZC7.jpg"
+    },
+    {
+      "code": "7VQRHD",
+      "id": "fast-confirmation-rule-13-second-cofirmations",
+      "title": "Fast Confirmation Rule: 13 second cofirmations",
+      "room": "Lightning Stage",
+      "start": 1793689500000,
+      "doNotRecord": false,
+      "card": "cards/7VQRHD.jpg"
+    },
+    {
+      "code": "VK7N3H",
+      "id": "p2p-networking-hub-guided-tour-of-ethereums-networking-layer",
+      "title": "🛖 P2P Networking Hub - Guided Tour of Ethereum's Networking Layer",
+      "room": "Jasmine Stage 4",
+      "start": 1793690100000,
+      "doNotRecord": false,
+      "card": "cards/VK7N3H.jpg"
+    },
+    {
+      "code": "LG3SGH",
+      "id": "eip-7923-a-sparse-page-based-memory-model-for-the-evm",
+      "title": "EIP-7923: A Sparse-Page-Based Memory Model for the EVM",
+      "room": "Lightning Stage",
+      "start": 1793690100000,
+      "doNotRecord": false,
+      "card": "cards/LG3SGH.jpg"
+    },
+    {
+      "code": "3WG9NQ",
+      "id": "learning-in-the-ai-era",
+      "title": "Learning in the AI era",
+      "room": "Workshop 1",
+      "start": 1793690100000,
+      "doNotRecord": false,
+      "card": "cards/3WG9NQ.jpg"
+    },
+    {
+      "code": "GTCDR9",
+      "id": "end-to-end-formally-verifying-openvm",
+      "title": "End-to-end formally verifying OpenVM",
+      "room": "Lightning Stage",
+      "start": 1793690700000,
+      "doNotRecord": false,
+      "card": "cards/GTCDR9.jpg"
+    },
+    {
+      "code": "K3QK9G",
+      "id": "oso-the-long-table",
+      "title": "🎼 🎻 OSO — the long table",
+      "room": "Music stage",
+      "start": 1793691000000,
+      "doNotRecord": false,
+      "card": "cards/K3QK9G.jpg"
+    },
+    {
+      "code": "LTAQGE",
+      "id": "securing-ethereum-in-the-age-of-ai-challenges-and-opportunities",
+      "title": "Securing Ethereum in the age of AI: Challenges & Opportunities",
+      "room": "Community Led Stage",
+      "start": 1793691000000,
+      "doNotRecord": false,
+      "card": "cards/LTAQGE.jpg"
+    },
+    {
+      "code": "8NVAUE",
+      "id": "paths-to-a-private-l1",
+      "title": "Paths to a Private L1",
+      "room": "Lightning Stage",
+      "start": 1793691300000,
+      "doNotRecord": false,
+      "card": "cards/8NVAUE.jpg"
+    },
+    {
+      "code": "LYJG9R",
+      "id": "aggregation-hub-can-ethereum-feel-like-one-chain-without-becoming-one",
+      "title": "🛖 Aggregation Hub - Can Ethereum Feel Like One Chain Without Becoming One?",
+      "room": "Jasmine Stage 4",
+      "start": 1793691900000,
+      "doNotRecord": false,
+      "card": "cards/LYJG9R.jpg"
+    },
+    {
+      "code": "ULE3PG",
+      "id": "eip-hub-unlock-ethereum-find-your-path",
+      "title": "🛖 EIP Hub - Unlock Ethereum: Find Your Path",
+      "room": "Workshop 2",
+      "start": 1793691900000,
+      "doNotRecord": false,
+      "card": "cards/ULE3PG.jpg"
+    },
+    {
+      "code": "QP7HV9",
+      "id": "building-on-ethereum-with-agents",
+      "title": "Building on Ethereum with agents",
+      "room": "Workshop 1",
+      "start": 1793691900000,
+      "doNotRecord": false,
+      "card": "cards/QP7HV9.jpg"
+    },
+    {
+      "code": "9XTSJT",
+      "id": "encrypt-the-mempool",
+      "title": "Encrypt The Mempool",
+      "room": "Lightning Stage",
+      "start": 1793691900000,
+      "doNotRecord": false,
+      "card": "cards/9XTSJT.jpg"
+    },
+    {
+      "code": "A8C93U",
+      "id": "focil-solves-censorship-what-doesnt-it-solve-about-builders",
+      "title": "FOCIL Solves Censorship. What Doesn't It Solve About Builders?",
+      "room": "Lightning Stage",
+      "start": 1793692500000,
+      "doNotRecord": false,
+      "card": "cards/A8C93U.jpg"
+    },
+    {
+      "code": "YEQFXR",
+      "id": "sybil-attacks-on-inclusion-list-mechanisms-focil-and-aucil",
+      "title": "Sybil Attacks on Inclusion List Mechanisms: FOCIL and AUCIL",
+      "room": "Lightning Stage",
+      "start": 1793693100000,
+      "doNotRecord": false,
+      "card": "cards/YEQFXR.jpg"
+    },
+    {
+      "code": "TDKZNP",
+      "id": "open-source-hub-your-developer-community-needs-more-than-a-hackathon",
+      "title": "🛖 Open Source Hub: Your Developer Community Needs More Than a Hackathon",
+      "room": "Jasmine Stage 4",
+      "start": 1793693700000,
+      "doNotRecord": false,
+      "card": "cards/TDKZNP.jpg"
+    },
+    {
+      "code": "X9WZEZ",
+      "id": "ampo-mechanisms-with-minimal-trust",
+      "title": "AMPO: Mechanisms with minimal trust",
+      "room": "Lightning Stage",
+      "start": 1793693700000,
+      "doNotRecord": false,
+      "card": "cards/X9WZEZ.jpg"
+    },
+    {
+      "code": "HFQMZB",
+      "id": "eth-evals-testing-agents-on-ethereum",
+      "title": "ETH Evals: testing agents on Ethereum",
+      "room": "Workshop 1",
+      "start": 1793693700000,
+      "doNotRecord": false,
+      "card": "cards/HFQMZB.jpg"
+    },
+    {
+      "code": "R9VECE",
+      "id": "blockchain-privacy",
+      "title": "Blockchain Privacy",
+      "room": "Lotus Stage 1",
+      "start": 1793694600000,
+      "doNotRecord": false,
+      "card": "cards/R9VECE.jpg"
+    },
+    {
+      "code": "89KLNQ",
+      "id": "civic-ai-for-self-governing-communities",
+      "title": "Civic AI for Self-Governing Communities",
+      "room": "Lotus Stage 2",
+      "start": 1793694600000,
+      "doNotRecord": false,
+      "card": "cards/89KLNQ.jpg"
+    },
+    {
+      "code": "BSXVZ7",
+      "id": "funding-the-ethereum-kernel-what-qualifies-what-it-costs-and-what-comes-first",
+      "title": "Funding the Ethereum Kernel: What Qualifies, What It Costs, and What Comes First",
+      "room": "Lotus Stage 3",
+      "start": 1793694600000,
+      "doNotRecord": false,
+      "card": "cards/BSXVZ7.jpg"
+    },
+    {
+      "code": "YQMW7V",
+      "id": "can-agents-be-safe-in-the-open-two-levels-of-trust",
+      "title": "Can Agents Be Safe in the Open? Two Levels of Trust",
+      "room": "Lotus Stage 2",
+      "start": 1793696400000,
+      "doNotRecord": false,
+      "card": "cards/YQMW7V.jpg"
+    },
+    {
+      "code": "VPGHTE",
+      "id": "naming-the-harm-a-privacy-threat-vocabulary-for-ethereum-builders",
+      "title": "Naming the Harm: A privacy threat vocabulary for Ethereum builders",
+      "room": "Lotus Stage 1",
+      "start": 1793696400000,
+      "doNotRecord": true,
+      "card": "cards/VPGHTE.jpg"
+    },
+    {
+      "code": "DGNVHN",
+      "id": "why-web3-needs-archaeologists-to-survive",
+      "title": "Why Web3 Needs Archaeologists To Survive",
+      "room": "Lotus Stage 3",
+      "start": 1793696400000,
+      "doNotRecord": false,
+      "card": "cards/DGNVHN.jpg"
+    },
+    {
+      "code": "PVPMTS",
+      "id": "connecting-funders-and-builders",
+      "title": "Connecting Funders and Builders",
+      "room": "Lotus Stage 3",
+      "start": 1793698200000,
+      "doNotRecord": false,
+      "card": "cards/PVPMTS.jpg"
+    },
+    {
+      "code": "9SWGWB",
+      "id": "decentralized-coordination-and-responsible-disclosure-with-millions-at-stake",
+      "title": "Decentralized Coordination & Responsible Disclosure with Millions at Stake",
+      "room": "Community Led Stage",
+      "start": 1793698200000,
+      "doNotRecord": false,
+      "card": "cards/9SWGWB.jpg"
+    },
+    {
+      "code": "DDAZFL",
+      "id": "handling-private-state-bloat-pruning-nullifiers-and-the-privacy-scalability-trade-off",
+      "title": "Handling Private State Bloat: Pruning Nullifiers and the Privacy-Scalability Trade-Off",
+      "room": "Lotus Stage 1",
+      "start": 1793698200000,
+      "doNotRecord": false,
+      "card": "cards/DDAZFL.jpg"
+    },
+    {
+      "code": "KQENBR",
+      "id": "itscharann-house-music-10-years-behind-the-decks",
+      "title": "itscharann [house music · 10 years behind the decks]",
+      "room": "Music stage",
+      "start": 1793698200000,
+      "doNotRecord": false,
+      "card": "cards/KQENBR.jpg"
+    },
+    {
+      "code": "C39QAG",
+      "id": "kohaku-privacy-for-everyone-by-default",
+      "title": "Kohaku : privacy for everyone, by default",
+      "room": "Lotus Stage 2",
+      "start": 1793698200000,
+      "doNotRecord": false,
+      "card": "cards/C39QAG.jpg"
+    },
+    {
+      "code": "KUXVYF",
+      "id": "wait-reentracies-are-good-now",
+      "title": "Wait! Reentracies are good now?",
+      "room": "Lightning Stage",
+      "start": 1793698200000,
+      "doNotRecord": false,
+      "card": "cards/KUXVYF.jpg"
+    },
+    {
+      "code": "VAH3UG",
+      "id": "1014-or-1014-what-breaks-in-tokenized-asset-feeds",
+      "title": "1,014 or 1.014: what breaks in tokenized asset feeds",
+      "room": "Lightning Stage",
+      "start": 1793698800000,
+      "doNotRecord": false,
+      "card": "cards/VAH3UG.jpg"
+    },
+    {
+      "code": "WNTLV3",
+      "id": "the-state-of-distributed-open-source-funding-and-what-needs-to-happen-next",
+      "title": "The state of distributed open source funding and what needs to happen next",
+      "room": "Lotus Stage 3",
+      "start": 1793698800000,
+      "doNotRecord": false,
+      "card": "cards/WNTLV3.jpg"
+    },
+    {
+      "code": "GAFFTR",
+      "id": "security-hub-how-do-we-coordinate-ethereum-security",
+      "title": "🛖 Security Hub - How Do We Coordinate Ethereum Security?",
+      "room": "Jasmine Stage 4",
+      "start": 1793699100000,
+      "doNotRecord": false,
+      "card": "cards/GAFFTR.jpg"
+    },
+    {
+      "code": "JY3MDV",
+      "id": "human-ai-solidity-ctf-bring-your-own-agent",
+      "title": "Human + AI Solidity CTF: bring your own agent",
+      "room": "Workshop 1",
+      "start": 1793699100000,
+      "doNotRecord": false,
+      "card": "cards/JY3MDV.jpg"
+    },
+    {
+      "code": "ZAVMAP",
+      "id": "stablecoins-are-permissionless-until-they-touch-fiat-making-the-last-mile-an-open-market",
+      "title": "Stablecoins Are Permissionless Until They Touch Fiat: Making the Last Mile an Open Market",
+      "room": "Lightning Stage",
+      "start": 1793699400000,
+      "doNotRecord": false,
+      "card": "cards/ZAVMAP.jpg"
+    },
+    {
+      "code": "HXTUPM",
+      "id": "the-history-of-ethereum-grant-funding-built-on-open-data",
+      "title": "The History of Ethereum Grant Funding, Built on Open Data",
+      "room": "Lotus Stage 3",
+      "start": 1793699400000,
+      "doNotRecord": false,
+      "card": "cards/HXTUPM.jpg"
+    },
+    {
+      "code": "PXXPPE",
+      "id": "diversifying-funding-for-digital-public-goods-are-frontier-research-contractors-the-answer",
+      "title": "Diversifying Funding for Digital Public Goods: are Frontier Research Contractors the answer?",
+      "room": "Lotus Stage 3",
+      "start": 1793700000000,
+      "doNotRecord": false,
+      "card": "cards/PXXPPE.jpg"
+    },
+    {
+      "code": "QGVASQ",
+      "id": "enterprise-ethereums-last-mile-a-practitioners-view",
+      "title": "Enterprise Ethereum's Last Mile: A Practitioner's View",
+      "room": "Lightning Stage",
+      "start": 1793700000000,
+      "doNotRecord": false,
+      "card": "cards/QGVASQ.jpg"
+    },
+    {
+      "code": "FGNDST",
+      "id": "private-state-public-network-the-tradeoffs-behind-privacy",
+      "title": "Private State, Public Network: The Tradeoffs Behind Privacy",
+      "room": "Lotus Stage 1",
+      "start": 1793700000000,
+      "doNotRecord": false,
+      "card": "cards/FGNDST.jpg"
+    },
+    {
+      "code": "NXEQ8C",
+      "id": "universal-connectivity-credits-and-other-insights-from-giga-unicefitu",
+      "title": "Universal Connectivity Credits & other insights from GIGA (UNICEF+ITU)",
+      "room": "Lotus Stage 2",
+      "start": 1793700000000,
+      "doNotRecord": false,
+      "card": "cards/NXEQ8C.jpg"
+    },
+    {
+      "code": "GKLUZN",
+      "id": "what-it-takes-to-ship-an-onchain-credit-card-to-non-crypto-users",
+      "title": "What it takes to ship an onchain credit card to non-crypto users",
+      "room": "Lightning Stage",
+      "start": 1793700600000,
+      "doNotRecord": false,
+      "card": "cards/GKLUZN.jpg"
+    },
+    {
+      "code": "BKVXUV",
+      "id": "india-hub-indian-builder-ecosystem",
+      "title": "🛖 India Hub - Indian Builder Ecosystem",
+      "room": "Jasmine Stage 4",
+      "start": 1793700900000,
+      "doNotRecord": false,
+      "card": "cards/BKVXUV.jpg"
+    },
+    {
+      "code": "TL8SNH",
+      "id": "ekant-open-format-house-commercial-bollywood-hip-hop",
+      "title": "Ekant [open-format · house / commercial / bollywood / hip-hop]",
+      "room": "Music stage",
+      "start": 1793701800000,
+      "doNotRecord": false,
+      "card": "cards/TL8SNH.jpg"
+    },
+    {
+      "code": "RGSKXT",
+      "id": "from-mass-commerce-to-regenerative-local-stewardship-building-real-world-refi-infrastructure",
+      "title": "From Mass Commerce to Regenerative Local Stewardship: Building Real-World ReFi Infrastructure",
+      "room": "Lotus Stage 3",
+      "start": 1793701800000,
+      "doNotRecord": false,
+      "card": "cards/RGSKXT.jpg"
+    },
+    {
+      "code": "BBJKCJ",
+      "id": "permission-not-possession-setting-agent-wallet-defaults-before-they-harden",
+      "title": "Permission, Not Possession: Setting Agent Wallet Defaults Before They Harden",
+      "room": "Lightning Stage",
+      "start": 1793701800000,
+      "doNotRecord": false,
+      "card": "cards/BBJKCJ.jpg"
+    },
+    {
+      "code": "HSSQDY",
+      "id": "programmable-cadastral-institutions-land-rights-and-sovereign-data-for-informal-settlements",
+      "title": "Programmable Cadastral Institutions: Land Rights and Sovereign Data for Informal Settlements",
+      "room": "Lotus Stage 2",
+      "start": 1793701800000,
+      "doNotRecord": false,
+      "card": "cards/HSSQDY.jpg"
+    },
+    {
+      "code": "EGY3JH",
+      "id": "state-of-web3-security-is-the-worst-behind-us-or-ahead",
+      "title": "State of Web3 Security: Is the Worst Behind us or Ahead?",
+      "room": "Community Led Stage",
+      "start": 1793701800000,
+      "doNotRecord": false,
+      "card": "cards/EGY3JH.jpg"
+    },
+    {
+      "code": "YQEHZN",
+      "id": "what-a-modern-privacy-protocol-needs",
+      "title": "What a Modern Privacy Protocol Needs",
+      "room": "Lotus Stage 1",
+      "start": 1793701800000,
+      "doNotRecord": false,
+      "card": "cards/YQEHZN.jpg"
+    },
+    {
+      "code": "HPREFJ",
+      "id": "nobody-verifies-what-your-agent-reads",
+      "title": "Nobody Verifies What Your Agent Reads",
+      "room": "Lightning Stage",
+      "start": 1793702400000,
+      "doNotRecord": false,
+      "card": "cards/HPREFJ.jpg"
+    },
+    {
+      "code": "CPNQHC",
+      "id": "agentic-hub-can-we-trust-the-machines-a-live-trial",
+      "title": "🛖 Agentic Hub - Can We Trust the Machines? A Live Trial",
+      "room": "Jasmine Stage 4",
+      "start": 1793702700000,
+      "doNotRecord": false,
+      "card": "cards/CPNQHC.jpg"
+    },
+    {
+      "code": "AYFF89",
+      "id": "theres-a-critical-bug-in-x402-markets-a-study-of-1200-merchants-in-an-unfair-agentic-market",
+      "title": "There's a Critical Bug in x402 markets: A Study of 1200 merchants in an unfair agentic market",
+      "room": "Lightning Stage",
+      "start": 1793703000000,
+      "doNotRecord": false,
+      "card": "cards/AYFF89.jpg"
+    },
+    {
+      "code": "LDY9RZ",
+      "id": "8004-bring-agents-on-chain",
+      "title": "8004: Bring Agents On Chain",
+      "room": "Lightning Stage",
+      "start": 1793703600000,
+      "doNotRecord": false,
+      "card": "cards/LDY9RZ.jpg"
+    },
+    {
+      "code": "KMWUNZ",
+      "id": "atproto-and-bluesky-the-personal-data-server-vs-the-collectivist-state-machine",
+      "title": "ATProto and Bluesky: The Personal Data Server vs the Collectivist State Machine",
+      "room": "Lotus Stage 2",
+      "start": 1793703600000,
+      "doNotRecord": false,
+      "card": "cards/KMWUNZ.jpg"
+    },
+    {
+      "code": "QFBFW9",
+      "id": "curing-compliance-psychosis",
+      "title": "Curing Compliance Psychosis",
+      "room": "Lotus Stage 1",
+      "start": 1793703600000,
+      "doNotRecord": false,
+      "card": "cards/QFBFW9.jpg"
+    },
+    {
+      "code": "8USRE9",
+      "id": "gainforest-how-we-can-ensure-equitable-and-regenerative-intelligence-for-nature-conservation",
+      "title": "GainForest: How we can ensure equitable and regenerative intelligence for nature conservation?",
+      "room": "Lotus Stage 3",
+      "start": 1793703600000,
+      "doNotRecord": false,
+      "card": "cards/8USRE9.jpg"
+    },
+    {
+      "code": "VFDA3Z",
+      "id": "agents-in-the-shell-tee-attested-ai-as-on-chain-oracles",
+      "title": "Agents in the Shell: TEE-Attested AI as On-Chain Oracles",
+      "room": "Lightning Stage",
+      "start": 1793704200000,
+      "doNotRecord": false,
+      "card": "cards/VFDA3Z.jpg"
+    },
+    {
+      "code": "DKKHA9",
+      "id": "privacy-hub-privacy-is-normal",
+      "title": "🛖 Privacy Hub - Privacy is normal",
+      "room": "Jasmine Stage 4",
+      "start": 1793704500000,
+      "doNotRecord": false,
+      "card": "cards/DKKHA9.jpg"
+    },
+    {
+      "code": "9R3PW8",
+      "id": "devtooling-builders-session",
+      "title": "Devtooling builders session",
+      "room": "Workshop 1",
+      "start": 1793704500000,
+      "doNotRecord": false,
+      "card": "cards/9R3PW8.jpg"
+    },
+    {
+      "code": "3PQZF8",
+      "id": "oso-open-decks",
+      "title": "🎼 🔊 OSO — open decks",
+      "room": "Music stage",
+      "start": 1793705400000,
+      "doNotRecord": false,
+      "card": "cards/3PQZF8.jpg"
+    },
+    {
+      "code": "8FN8MW",
+      "id": "a-dao-shipped-an-aircraft-what-it-takes-to-coordinate-atoms-with-tokens",
+      "title": "A DAO Shipped an Aircraft: What It Takes to Coordinate Atoms with Tokens",
+      "room": "Lotus Stage 3",
+      "start": 1793705400000,
+      "doNotRecord": false,
+      "card": "cards/8FN8MW.jpg"
+    },
+    {
+      "code": "X8SS73",
+      "id": "digital-rights-in-dpis-limitations-and-lessons-for-equitable-futures",
+      "title": "Digital Rights in DPIs — Limitations and Lessons for Equitable Futures",
+      "room": "Lotus Stage 2",
+      "start": 1793705400000,
+      "doNotRecord": false,
+      "card": "cards/X8SS73.jpg"
+    },
+    {
+      "code": "RFHE93",
+      "id": "privacys-https-moment",
+      "title": "Privacy's HTTPS Moment",
+      "room": "Lotus Stage 1",
+      "start": 1793705400000,
+      "doNotRecord": false,
+      "card": "cards/RFHE93.jpg"
+    },
+    {
+      "code": "MUGWDC",
+      "id": "prediction-market-community-hub",
+      "title": "🛖 Prediction Market Community Hub",
+      "room": "Jasmine Stage 4",
+      "start": 1793706300000,
+      "doNotRecord": false,
+      "card": "cards/MUGWDC.jpg"
+    },
+    {
+      "code": "33TGAH",
+      "id": "ayyussh-2-apps-gospel-choir-leader-and-singer",
+      "title": "Ayyussh ×2 apps [gospel choir leader & singer]",
+      "room": "Music stage",
+      "start": 1793764800000,
+      "doNotRecord": false,
+      "card": "cards/33TGAH.jpg"
+    },
+    {
+      "code": "YS8PJG",
+      "id": "ethindia-opening-ceremony",
+      "title": "ETHIndia - Opening Ceremony",
+      "room": "Community Led Stage",
+      "start": 1793765700000,
+      "doNotRecord": false,
+      "card": "cards/YS8PJG.jpg"
+    },
+    {
+      "code": "L7Y9A9",
+      "id": "quefear-maria-shilina-modular-synths-and-amplified-objects",
+      "title": "Quefear [maria shilina · modular synths & amplified objects]",
+      "room": "Music stage",
+      "start": 1793766000000,
+      "doNotRecord": false,
+      "card": "cards/L7Y9A9.jpg"
+    },
+    {
+      "code": "KUGUWW",
+      "id": "legalandgovernance-hub-onchain-entities-legal-compliance-and-token-rights",
+      "title": "🛖 Legal&Governance Hub - Onchain Entities: Legal Compliance & Token Rights",
+      "room": "Jasmine Stage 4",
+      "start": 1793766600000,
+      "doNotRecord": false,
+      "card": "cards/KUGUWW.jpg"
+    },
+    {
+      "code": "TQNEJV",
+      "id": "building-for-generations",
+      "title": "Building For Generations",
+      "room": "Lotus Stage 1",
+      "start": 1793766600000,
+      "doNotRecord": false,
+      "card": "cards/TQNEJV.jpg"
+    },
+    {
+      "code": "MLYHCE",
+      "id": "ethereums-roadmap-simplified-what-changes-next-and-why",
+      "title": "Ethereum's Roadmap, Simplified: What Changes Next and Why",
+      "room": "Lotus Stage 2",
+      "start": 1793766600000,
+      "doNotRecord": false,
+      "card": "cards/MLYHCE.jpg"
+    },
+    {
+      "code": "PTPUZY",
+      "id": "fireside",
+      "title": "Fireside",
+      "room": "Community Led Stage",
+      "start": 1793766600000,
+      "doNotRecord": false,
+      "card": "cards/PTPUZY.jpg"
+    },
+    {
+      "code": "DYTWBF",
+      "id": "hooks-everywhere-the-age-of-dynamic-contracts",
+      "title": "Hooks everywhere: the age of dynamic contracts",
+      "room": "Lotus Stage 3",
+      "start": 1793766600000,
+      "doNotRecord": false,
+      "card": "cards/DYTWBF.jpg"
+    },
+    {
+      "code": "BYCGFQ",
+      "id": "light-client-backfill-in-prysm",
+      "title": "Light Client Backfill in Prysm",
+      "room": "Workshop 2",
+      "start": 1793766600000,
+      "doNotRecord": false,
+      "card": "cards/BYCGFQ.jpg"
+    },
+    {
+      "code": "CUPZ8H",
+      "id": "red-team-your-own-ai-pipeline-a-hands-on-prompt-injection-and-supply-chain-lab",
+      "title": "Red-Team Your Own AI Pipeline: A Hands-On Prompt-Injection & Supply-Chain Lab",
+      "room": "Workshop 1",
+      "start": 1793766600000,
+      "doNotRecord": false,
+      "card": "cards/CUPZ8H.jpg"
+    },
+    {
+      "code": "LZ8DKM",
+      "id": "where-to-hide-wormholes-beacon-deposits-and-the-cost-of-deniability",
+      "title": "Where to Hide: Wormholes, Beacon Deposits, and the Cost of Deniability",
+      "room": "Lightning Stage",
+      "start": 1793766600000,
+      "doNotRecord": false,
+      "card": "cards/LZ8DKM.jpg"
+    },
+    {
+      "code": "NMVTFA",
+      "id": "how-to-shield-your-eth-from-your-mum-compliantly",
+      "title": "How to Shield Your ETH from Your Mum, Compliantly",
+      "room": "Lightning Stage",
+      "start": 1793767200000,
+      "doNotRecord": false,
+      "card": "cards/NMVTFA.jpg"
+    },
+    {
+      "code": "ZDFYFR",
+      "id": "light-client-protocol-implementation-in-teku",
+      "title": "Light Client Protocol Implementation in Teku",
+      "room": "Workshop 2",
+      "start": 1793767800000,
+      "doNotRecord": false,
+      "card": "cards/ZDFYFR.jpg"
+    },
+    {
+      "code": "XFNQVA",
+      "id": "trash-piracy-an-opsec-case-study",
+      "title": "Trash Piracy: an Opsec Case Study",
+      "room": "Lightning Stage",
+      "start": 1793767800000,
+      "doNotRecord": false,
+      "card": "cards/XFNQVA.jpg"
+    },
+    {
+      "code": "7KPUFY",
+      "id": "acoustic-avadh-high-energy-acoustic-electric-guitar",
+      "title": "Acoustic Avadh [high-energy acoustic + electric guitar]",
+      "room": "Music stage",
+      "start": 1793768100000,
+      "doNotRecord": false,
+      "card": "cards/7KPUFY.jpg"
+    },
+    {
+      "code": "KM7DLM",
+      "id": "fast-finality-update",
+      "title": "Fast Finality update",
+      "room": "Lotus Stage 2",
+      "start": 1793768400000,
+      "doNotRecord": false,
+      "card": "cards/KM7DLM.jpg"
+    },
+    {
+      "code": "R3WSN8",
+      "id": "smart-accounts-in-production-what-we-learned-the-hard-way",
+      "title": "Smart Accounts in Production: What We Learned the Hard Way",
+      "room": "Lotus Stage 3",
+      "start": 1793768400000,
+      "doNotRecord": false,
+      "card": "cards/R3WSN8.jpg"
+    },
+    {
+      "code": "TC3B77",
+      "id": "unicef-on-chain-from-pilots-to-institutional-adoption",
+      "title": "UNICEF on-chain, from pilots to institutional adoption",
+      "room": "Lotus Stage 1",
+      "start": 1793768400000,
+      "doNotRecord": false,
+      "card": "cards/TC3B77.jpg"
+    },
+    {
+      "code": "J8KCWU",
+      "id": "what-data-leaks-when-you-transact-with-different-wallets-placeholder",
+      "title": "what data leaks when you transact with different wallets [placeholder]",
+      "room": "Lightning Stage",
+      "start": 1793768400000,
+      "doNotRecord": false,
+      "card": "cards/J8KCWU.jpg"
+    },
+    {
+      "code": "CPKL7K",
+      "id": "epf-project-presentation-rest-ssz-engine-api-for-lighthouse",
+      "title": "EPF Project Presentation: REST-SSZ Engine API for Lighthouse",
+      "room": "Workshop 2",
+      "start": 1793769000000,
+      "doNotRecord": false,
+      "card": "cards/CPKL7K.jpg"
+    },
+    {
+      "code": "LXDNUG",
+      "id": "institutions-onchain",
+      "title": "Institutions Onchain",
+      "room": "Community Led Stage",
+      "start": 1793769000000,
+      "doNotRecord": false,
+      "card": "cards/LXDNUG.jpg"
+    },
+    {
+      "code": "9LGUTG",
+      "id": "building-a-privacy-browser-for-ethereum",
+      "title": "Building a Privacy Browser for Ethereum",
+      "room": "Lightning Stage",
+      "start": 1793769600000,
+      "doNotRecord": false,
+      "card": "cards/9LGUTG.jpg"
+    },
+    {
+      "code": "M8RFSS",
+      "id": "oso-the-coffee-lounge-morning",
+      "title": "🎼 🎷☕ OSO — the coffee lounge [morning]",
+      "room": "Music stage",
+      "start": 1793770200000,
+      "doNotRecord": false,
+      "card": "cards/M8RFSS.jpg"
+    },
+    {
+      "code": "ACGBRX",
+      "id": "beyond-the-johnson-bound-a-path-to-smaller-post-quantum-snarks",
+      "title": "Beyond the Johnson Bound: A Path to Smaller Post-Quantum SNARKs",
+      "room": "Workshop 1",
+      "start": 1793770200000,
+      "doNotRecord": false,
+      "card": "cards/ACGBRX.jpg"
+    },
+    {
+      "code": "GJKTYE",
+      "id": "can-a-real-world-asset-be-crops-aligned",
+      "title": "Can a Real World Asset Be CROPS Aligned?",
+      "room": "Lotus Stage 1",
+      "start": 1793770200000,
+      "doNotRecord": false,
+      "card": "cards/GJKTYE.jpg"
+    },
+    {
+      "code": "97BSTL",
+      "id": "how-ethereum-learned-to-scale",
+      "title": "How Ethereum Learned to Scale",
+      "room": "Lotus Stage 2",
+      "start": 1793770200000,
+      "doNotRecord": false,
+      "card": "cards/97BSTL.jpg"
+    },
+    {
+      "code": "BRPWB3",
+      "id": "ssz-execution-blocks-ssz-query-language-in-erigon",
+      "title": "SSZ Execution Blocks + SSZ Query Language in Erigon",
+      "room": "Workshop 2",
+      "start": 1793770200000,
+      "doNotRecord": false,
+      "card": "cards/BRPWB3.jpg"
+    },
+    {
+      "code": "LXLJYN",
+      "id": "the-untapped-potential-of-stealth-addresses",
+      "title": "The untapped potential of stealth addresses",
+      "room": "Lightning Stage",
+      "start": 1793770200000,
+      "doNotRecord": false,
+      "card": "cards/LXLJYN.jpg"
+    },
+    {
+      "code": "H9HGER",
+      "id": "wallets-reimagined-erc-8286-and-eip-8141-in-production",
+      "title": "Wallets Reimagined: ERC-8286 & EIP-8141 in Production",
+      "room": "Lotus Stage 3",
+      "start": 1793770200000,
+      "doNotRecord": false,
+      "card": "cards/H9HGER.jpg"
+    },
+    {
+      "code": "VNLG3N",
+      "id": "from-vanity-to-poison-the-evolution-of-address-poisoning-attacks",
+      "title": "From vanity to poison: the evolution of address poisoning attacks",
+      "room": "Lightning Stage",
+      "start": 1793771400000,
+      "doNotRecord": false,
+      "card": "cards/VNLG3N.jpg"
+    },
+    {
+      "code": "RVFWVW",
+      "id": "india-policy-landscape",
+      "title": "India Policy Landscape",
+      "room": "Community Led Stage",
+      "start": 1793771400000,
+      "doNotRecord": false,
+      "card": "cards/RVFWVW.jpg"
+    },
+    {
+      "code": "CYMQDQ",
+      "id": "ssz-execution-blocks-eip-7807-for-geth",
+      "title": "SSZ Execution Blocks (EIP-7807) for Geth",
+      "room": "Workshop 2",
+      "start": 1793771400000,
+      "doNotRecord": false,
+      "card": "cards/CYMQDQ.jpg"
+    },
+    {
+      "code": "LMNFPU",
+      "id": "a-pluralist-future-for-money",
+      "title": "A pluralist future for money",
+      "room": "Lotus Stage 1",
+      "start": 1793772000000,
+      "doNotRecord": false,
+      "card": "cards/LMNFPU.jpg"
+    },
+    {
+      "code": "UXFPPT",
+      "id": "fast-ethereum",
+      "title": "Fast Ethereum",
+      "room": "Lotus Stage 3",
+      "start": 1793772000000,
+      "doNotRecord": false,
+      "card": "cards/UXFPPT.jpg"
+    },
+    {
+      "code": "DLTYES",
+      "id": "getting-to-lean-ethereum",
+      "title": "Getting to Lean Ethereum",
+      "room": "Lotus Stage 2",
+      "start": 1793772000000,
+      "doNotRecord": false,
+      "card": "cards/DLTYES.jpg"
+    },
+    {
+      "code": "BUMGRG",
+      "id": "how-to-steal-dollar5m-with-a-read-only-bug",
+      "title": "How to steal $5M with a read-only bug",
+      "room": "Lightning Stage",
+      "start": 1793772000000,
+      "doNotRecord": false,
+      "card": "cards/BUMGRG.jpg"
+    },
+    {
+      "code": "PX8KXP",
+      "id": "private-social-graphs-trust-consent-and-access-for-real-communities",
+      "title": "Private Social Graphs: Trust, Consent, and Access for Real Communities",
+      "room": "Jasmine Stage 4",
+      "start": 1793772000000,
+      "doNotRecord": false,
+      "card": "cards/PX8KXP.jpg"
+    },
+    {
+      "code": "RFCKTH",
+      "id": "pureth-in-reth-ssz-execution-blocks-and-query-language",
+      "title": "Pureth in Reth: SSZ Execution Blocks and Query Language",
+      "room": "Workshop 2",
+      "start": 1793772600000,
+      "doNotRecord": false,
+      "card": "cards/RFCKTH.jpg"
+    },
+    {
+      "code": "JFMYXJ",
+      "id": "stop-re-investigating-the-same-wallet-a-shared-evidence-layer-for-on-chain-crime",
+      "title": "Stop Re-Investigating the Same Wallet: A Shared Evidence Layer for On-Chain Crime",
+      "room": "Lightning Stage",
+      "start": 1793772600000,
+      "doNotRecord": false,
+      "card": "cards/JFMYXJ.jpg"
+    },
+    {
+      "code": "SKCSVQ",
+      "id": "tokenizing-bharat",
+      "title": "Tokenizing Bharat",
+      "room": "Community Led Stage",
+      "start": 1793772600000,
+      "doNotRecord": false,
+      "card": "cards/SKCSVQ.jpg"
+    },
+    {
+      "code": "KWXPU8",
+      "id": "ai-enabled-chain-validated-one-click-visualisation-of-fund-flows",
+      "title": "AI-enabled, chain-validated, one-click visualisation of fund flows",
+      "room": "Lightning Stage",
+      "start": 1793773200000,
+      "doNotRecord": false,
+      "card": "cards/KWXPU8.jpg"
+    },
+    {
+      "code": "XNXTCE",
+      "id": "an-ethereum-validator-in-every-home-the-road-to-1-billion",
+      "title": "An Ethereum Validator in Every Home: The Road to 1 Billion",
+      "room": "Lotus Stage 2",
+      "start": 1793773800000,
+      "doNotRecord": false,
+      "card": "cards/XNXTCE.jpg"
+    },
+    {
+      "code": "ZMUN7G",
+      "id": "building-a-company-without-google-workspace",
+      "title": "Building a company without Google Workspace",
+      "room": "Jasmine Stage 4",
+      "start": 1793773800000,
+      "doNotRecord": false,
+      "card": "cards/ZMUN7G.jpg"
+    },
+    {
+      "code": "CXFQUJ",
+      "id": "eip-8304-trustless-log-and-transaction-index-in-geth",
+      "title": "EIP-8304: Trustless log and transaction index in Geth",
+      "room": "Workshop 2",
+      "start": 1793773800000,
+      "doNotRecord": false,
+      "card": "cards/CXFQUJ.jpg"
+    },
+    {
+      "code": "MLCEKY",
+      "id": "the-last-security-hire",
+      "title": "The Last Security Hire",
+      "room": "Lightning Stage",
+      "start": 1793773800000,
+      "doNotRecord": false,
+      "card": "cards/MLCEKY.jpg"
+    },
+    {
+      "code": "BCLSJF",
+      "id": "training-for-constraining-how-to-prevent-circuit-level-bugs",
+      "title": "Training for Constraining: How to Prevent Circuit-Level Bugs",
+      "room": "Workshop 1",
+      "start": 1793773800000,
+      "doNotRecord": false,
+      "card": "cards/BCLSJF.jpg"
+    },
+    {
+      "code": "ZCDYYW",
+      "id": "freeze-commit-security-reviews-cant-keep-up-with-modern-development",
+      "title": "Freeze Commit Security Reviews Can't Keep Up with Modern Development",
+      "room": "Lightning Stage",
+      "start": 1793774400000,
+      "doNotRecord": false,
+      "card": "cards/ZCDYYW.jpg"
+    },
+    {
+      "code": "YWDXEQ",
+      "id": "futures-worth-building",
+      "title": "Futures Worth Building",
+      "room": "Community Led Stage",
+      "start": 1793775000000,
+      "doNotRecord": false,
+      "card": "cards/YWDXEQ.jpg"
+    },
+    {
+      "code": "GNVKGQ",
+      "id": "when-a-chain-shuts-down-keeping-on-chain-history-alive",
+      "title": "When a Chain Shuts Down: Keeping On-Chain History Alive",
+      "room": "Lightning Stage",
+      "start": 1793775000000,
+      "doNotRecord": false,
+      "card": "cards/GNVKGQ.jpg"
+    },
+    {
+      "code": "YSMVJE",
+      "id": "pq-ethereum-qanda",
+      "title": "PQ Ethereum Q&A",
+      "room": "Lotus Stage 2",
+      "start": 1793775600000,
+      "doNotRecord": false,
+      "card": "cards/YSMVJE.jpg"
+    },
+    {
+      "code": "3KEDRA",
+      "id": "alaska-subcult-live-coding-live-coding-straight-after-amerge",
+      "title": "Alaska × Subcult — live coding 🌺 live coding, straight after Amerge",
+      "room": "Music stage",
+      "start": 1793776200000,
+      "doNotRecord": false,
+      "card": "cards/3KEDRA.jpg"
+    },
+    {
+      "code": "LQ7QCG",
+      "id": "every-division-picks-a-winner-rounding-and-accounting-hazards-in-lending-protocols",
+      "title": "Every Division Picks a Winner: Rounding and Accounting Hazards in Lending Protocols",
+      "room": "Lotus Stage 3",
+      "start": 1793777400000,
+      "doNotRecord": false,
+      "card": "cards/LQ7QCG.jpg"
+    },
+    {
+      "code": "KPMNKY",
+      "id": "how-big-can-ethereum-get-before-physics-gets-in-the-way",
+      "title": "How Big Can Ethereum Get Before Physics Gets in the Way?",
+      "room": "Lotus Stage 1",
+      "start": 1793777400000,
+      "doNotRecord": false,
+      "card": "cards/KPMNKY.jpg"
+    },
+    {
+      "code": "KRA8XX",
+      "id": "2d-filtermaps-in-reth",
+      "title": "2D-Filtermaps in Reth",
+      "room": "Workshop 2",
+      "start": 1793778600000,
+      "doNotRecord": false,
+      "card": "cards/KRA8XX.jpg"
+    },
+    {
+      "code": "BLYH7C",
+      "id": "designing-for-irreversibility-lessons-from-shipping-ensv2",
+      "title": "Designing for Irreversibility: Lessons from Shipping ENSv2",
+      "room": "Lotus Stage 3",
+      "start": 1793779200000,
+      "doNotRecord": false,
+      "card": "cards/BLYH7C.jpg"
+    },
+    {
+      "code": "8D8G7U",
+      "id": "issuance-roundtable",
+      "title": "Issuance roundtable",
+      "room": "Jasmine Stage 4",
+      "start": 1793779200000,
+      "doNotRecord": false,
+      "card": "cards/8D8G7U.jpg"
+    },
+    {
+      "code": "D98PZT",
+      "id": "toward-a-synchronous-ethereum-making-rollups-composable-with-eez",
+      "title": "Toward a Synchronous Ethereum: Making Rollups Composable with EEZ",
+      "room": "Lotus Stage 1",
+      "start": 1793779200000,
+      "doNotRecord": false,
+      "card": "cards/D98PZT.jpg"
+    },
+    {
+      "code": "VTMCCJ",
+      "id": "what-the-block-explorer-misses-using-laundering-intel-to-contain-exploits",
+      "title": "What the Block Explorer Misses: Using Laundering Intel to Contain Exploits",
+      "room": "Lightning Stage",
+      "start": 1793779200000,
+      "doNotRecord": false,
+      "card": "cards/VTMCCJ.jpg"
+    },
+    {
+      "code": "M7BQCG",
+      "id": "building-the-epbs-builder-in-lodestar",
+      "title": "Building the ePBS Builder in Lodestar",
+      "room": "Workshop 2",
+      "start": 1793779800000,
+      "doNotRecord": false,
+      "card": "cards/M7BQCG.jpg"
+    },
+    {
+      "code": "TTRVYX",
+      "id": "amerge-subcult-live-group-songwriting-fair-pay-for-artists",
+      "title": "Amerge × Subcult [live group songwriting + fair pay for artists]",
+      "room": "Music stage",
+      "start": 1793780400000,
+      "doNotRecord": false,
+      "card": "cards/TTRVYX.jpg"
+    },
+    {
+      "code": "PCQRRH",
+      "id": "evaluating-client-side-proving-systems",
+      "title": "Evaluating Client-Side Proving Systems",
+      "room": "Workshop 1",
+      "start": 1793781000000,
+      "doNotRecord": false,
+      "card": "cards/PCQRRH.jpg"
+    },
+    {
+      "code": "V897WY",
+      "id": "focil-in-lighthouse",
+      "title": "FOCIL in Lighthouse",
+      "room": "Workshop 2",
+      "start": 1793781000000,
+      "doNotRecord": false,
+      "card": "cards/V897WY.jpg"
+    },
+    {
+      "code": "SFF9N9",
+      "id": "hijacked-at-the-registry-26-hours-without-our-domain",
+      "title": "Hijacked at the registry: 26 hours without our domain",
+      "room": "Lightning Stage",
+      "start": 1793781000000,
+      "doNotRecord": false,
+      "card": "cards/SFF9N9.jpg"
+    },
+    {
+      "code": "JQRC98",
+      "id": "migrating-from-a-private-blockchain-to-ethereum-engineering-lessons",
+      "title": "Migrating from a Private Blockchain to Ethereum: Engineering Lessons",
+      "room": "Lotus Stage 3",
+      "start": 1793781000000,
+      "doNotRecord": false,
+      "card": "cards/JQRC98.jpg"
+    },
+    {
+      "code": "U7DBCW",
+      "id": "operating-crypto-in-india",
+      "title": "Operating Crypto in India",
+      "room": "Community Led Stage",
+      "start": 1793781000000,
+      "doNotRecord": false,
+      "card": "cards/U7DBCW.jpg"
+    },
+    {
+      "code": "MJBATS",
+      "id": "the-role-of-the-public-mempool-in-crops-ethereum",
+      "title": "The Role of the Public Mempool in CROPS Ethereum",
+      "room": "Lotus Stage 2",
+      "start": 1793781000000,
+      "doNotRecord": false,
+      "card": "cards/MJBATS.jpg"
+    },
+    {
+      "code": "WHU9HR",
+      "id": "who-vouches-for-you-when-your-issuer-is-gone",
+      "title": "Who Vouches for You When Your Issuer Is Gone?",
+      "room": "Lotus Stage 1",
+      "start": 1793781000000,
+      "doNotRecord": false,
+      "card": "cards/WHU9HR.jpg"
+    },
+    {
+      "code": "TWALMN",
+      "id": "etheorem-lean-4-consensus-spec-proofs",
+      "title": "Etheorem: Lean 4 Consensus-Spec Proofs",
+      "room": "Workshop 2",
+      "start": 1793782200000,
+      "doNotRecord": false,
+      "card": "cards/TWALMN.jpg"
+    },
+    {
+      "code": "VN7HYM",
+      "id": "creating-a-multisig-wallet-in-an-unsafe-language",
+      "title": "Creating a multisig wallet in an \"unsafe\" language",
+      "room": "Lotus Stage 3",
+      "start": 1793782800000,
+      "doNotRecord": false,
+      "card": "cards/VN7HYM.jpg"
+    },
+    {
+      "code": "A3BQGR",
+      "id": "deploying-a-nationwide-referendum-on-chain",
+      "title": "Deploying a Nationwide Referendum On-Chain",
+      "room": "Lotus Stage 1",
+      "start": 1793782800000,
+      "doNotRecord": false,
+      "card": "cards/A3BQGR.jpg"
+    },
+    {
+      "code": "RBPW3G",
+      "id": "reimagining-money-movement-open-financial-rails-for-india",
+      "title": "Reimagining Money Movement: Open Financial Rails for India",
+      "room": "Jasmine Stage 4",
+      "start": 1793782800000,
+      "doNotRecord": false,
+      "card": "cards/RBPW3G.jpg"
+    },
+    {
+      "code": "LC797R",
+      "id": "the-dollar75m-sandwich-bot-hack-what-agent-transaction-security-requires",
+      "title": "The $7.5M Sandwich Bot Hack: What Agent Transaction Security Requires",
+      "room": "Lightning Stage",
+      "start": 1793782800000,
+      "doNotRecord": false,
+      "card": "cards/LC797R.jpg"
+    },
+    {
+      "code": "BTRFXC",
+      "id": "the-multi-node-ethereum",
+      "title": "The multi-node Ethereum",
+      "room": "Lotus Stage 2",
+      "start": 1793782800000,
+      "doNotRecord": false,
+      "card": "cards/BTRFXC.jpg"
+    },
+    {
+      "code": "XRCSNK",
+      "id": "lattice-based-post-quantum-stealth-address-protocol",
+      "title": "Lattice-based Post-Quantum Stealth Address Protocol",
+      "room": "Workshop 2",
+      "start": 1793783400000,
+      "doNotRecord": false,
+      "card": "cards/XRCSNK.jpg"
+    },
+    {
+      "code": "LZSPX3",
+      "id": "oso-the-coffee-lounge-afternoon",
+      "title": "🎼 🎷☕ OSO — the coffee lounge [afternoon]",
+      "room": "Music stage",
+      "start": 1793784600000,
+      "doNotRecord": false,
+      "card": "cards/LZSPX3.jpg"
+    },
+    {
+      "code": "7RNEX7",
+      "id": "blob-or-chunk-which-one-is-cypherpunk-infinitely-scalable-data-for-smart-contracts",
+      "title": "Blob or chunk: which one is cypherpunk? Infinitely scalable data for smart contracts",
+      "room": "Lightning Stage",
+      "start": 1793784600000,
+      "doNotRecord": false,
+      "card": "cards/7RNEX7.jpg"
+    },
+    {
+      "code": "CQ9MWE",
+      "id": "delegated-execution-sharding",
+      "title": "Delegated Execution Sharding",
+      "room": "Workshop 2",
+      "start": 1793784600000,
+      "doNotRecord": false,
+      "card": "cards/CQ9MWE.jpg"
+    },
+    {
+      "code": "8WZ7BA",
+      "id": "frames-are-all-you-need",
+      "title": "Frames are all you need",
+      "room": "Lotus Stage 2",
+      "start": 1793784600000,
+      "doNotRecord": false,
+      "card": "cards/8WZ7BA.jpg"
+    },
+    {
+      "code": "UZLVP3",
+      "id": "from-crypto-rails-to-open-infrastructure-ethereums-expanding-role",
+      "title": "From crypto rails to open infrastructure: Ethereum’s expanding role",
+      "room": "Jasmine Stage 4",
+      "start": 1793784600000,
+      "doNotRecord": false,
+      "card": "cards/UZLVP3.jpg"
+    },
+    {
+      "code": "RTKLGH",
+      "id": "slang-a-faster-better-optimizing-solidity-compiler",
+      "title": "Slang: A faster, better-optimizing Solidity compiler",
+      "room": "Lotus Stage 3",
+      "start": 1793784600000,
+      "doNotRecord": false,
+      "card": "cards/RTKLGH.jpg"
+    },
+    {
+      "code": "7AVTW8",
+      "id": "the-michelin-guide-for-crops",
+      "title": "The Michelin Guide for CROPS",
+      "room": "Lotus Stage 1",
+      "start": 1793784600000,
+      "doNotRecord": false,
+      "card": "cards/7AVTW8.jpg"
+    },
+    {
+      "code": "BP8VAY",
+      "id": "top-hacks-since-devcon-sea-what-did-we-learn",
+      "title": "Top hacks since Devcon SEA - what did we learn?",
+      "room": "Workshop 1",
+      "start": 1793784600000,
+      "doNotRecord": false,
+      "card": "cards/BP8VAY.jpg"
+    },
+    {
+      "code": "VCEMDS",
+      "id": "is-this-binary-actually-built-from-that-public-source-code",
+      "title": "Is this binary actually built from that public source code?",
+      "room": "Lightning Stage",
+      "start": 1793785200000,
+      "doNotRecord": false,
+      "card": "cards/VCEMDS.jpg"
+    },
+    {
+      "code": "8FCR7F",
+      "id": "implementing-eip-8025-optional-execution-proofs-in-grandine",
+      "title": "Implementing EIP-8025 Optional Execution Proofs in Grandine",
+      "room": "Workshop 2",
+      "start": 1793785800000,
+      "doNotRecord": false,
+      "card": "cards/8FCR7F.jpg"
+    },
+    {
+      "code": "NZP7PE",
+      "id": "oksolc-a-solidity-compiler-in-zig",
+      "title": "oksolc, a Solidity compiler in Zig",
+      "room": "Lightning Stage",
+      "start": 1793785800000,
+      "doNotRecord": false,
+      "card": "cards/NZP7PE.jpg"
+    },
+    {
+      "code": "YWBSCW",
+      "id": "aratu-what-happens-when-a-20-year-old-social-currency-moves-on-chain",
+      "title": "Aratu: What Happens When a 20-Year-Old Social Currency Moves On-Chain",
+      "room": "Lotus Stage 3",
+      "start": 1793786400000,
+      "doNotRecord": false,
+      "card": "cards/YWBSCW.jpg"
+    },
+    {
+      "code": "SMK3T9",
+      "id": "beyond-clear-signing-what-else-should-wallets-do",
+      "title": "Beyond Clear Signing: What Else Should Wallets Do?",
+      "room": "Jasmine Stage 4",
+      "start": 1793786400000,
+      "doNotRecord": false,
+      "card": "cards/SMK3T9.jpg"
+    },
+    {
+      "code": "XRTHGP",
+      "id": "the-petabyte-chain-and-how-to-survive-it",
+      "title": "The 'Petabyte Chain' and how to survive it",
+      "room": "Lotus Stage 2",
+      "start": 1793786400000,
+      "doNotRecord": false,
+      "card": "cards/XRTHGP.jpg"
+    },
+    {
+      "code": "AYCVPG",
+      "id": "wallets-and-software-supply-chain-security",
+      "title": "Wallets and software supply chain security",
+      "room": "Lightning Stage",
+      "start": 1793786400000,
+      "doNotRecord": false,
+      "card": "cards/AYCVPG.jpg"
+    },
+    {
+      "code": "ELNRHR",
+      "id": "what-does-it-take-to-trust-a-transaction-end-to-end",
+      "title": "What does it take to trust a transaction end to end?",
+      "room": "Lotus Stage 1",
+      "start": 1793786400000,
+      "doNotRecord": false,
+      "card": "cards/ELNRHR.jpg"
+    },
+    {
+      "code": "PWDFKG",
+      "id": "design-for-the-compromised-signer-bounding-blast-radius-in-smart-accounts",
+      "title": "Design for the Compromised Signer: Bounding Blast Radius in Smart Accounts",
+      "room": "Jasmine Stage 4",
+      "start": 1793787000000,
+      "doNotRecord": false,
+      "card": "cards/PWDFKG.jpg"
+    },
+    {
+      "code": "FKD3TQ",
+      "id": "ethereum-x-robotics",
+      "title": "Ethereum X Robotics",
+      "room": "Community Led Stage",
+      "start": 1793787000000,
+      "doNotRecord": false,
+      "card": "cards/FKD3TQ.jpg"
+    },
+    {
+      "code": "UGFPY3",
+      "id": "grandine-lean-client-development",
+      "title": "Grandine Lean Client Development",
+      "room": "Workshop 2",
+      "start": 1793787000000,
+      "doNotRecord": false,
+      "card": "cards/UGFPY3.jpg"
+    },
+    {
+      "code": "3LBXLP",
+      "id": "open-source-robotics-with-ethereum",
+      "title": "Open Source Robotics with Ethereum",
+      "room": "Lightning Stage",
+      "start": 1793787000000,
+      "doNotRecord": false,
+      "card": "cards/3LBXLP.jpg"
+    },
+    {
+      "code": "PW7EVT",
+      "id": "running-a-full-node-and-staking-on-free-and-open-standard-risc-v-hardware",
+      "title": "Running a Full Node and Staking on Free and Open Standard RISC-V Hardware",
+      "room": "Lightning Stage",
+      "start": 1793787600000,
+      "doNotRecord": false,
+      "card": "cards/PW7EVT.jpg"
+    },
+    {
+      "code": "8YBCQB",
+      "id": "security-through-clearing-the-timelock-model",
+      "title": "Security Through Clearing: The Timelock Model",
+      "room": "Jasmine Stage 4",
+      "start": 1793787600000,
+      "doNotRecord": false,
+      "card": "cards/8YBCQB.jpg"
+    },
+    {
+      "code": "GPHSUE",
+      "id": "beyond-github-building-open-source-on-radicle",
+      "title": "Beyond GitHub: Building Open Source on Radicle",
+      "room": "Workshop 1",
+      "start": 1793788200000,
+      "doNotRecord": false,
+      "card": "cards/GPHSUE.jpg"
+    },
+    {
+      "code": "FSHBKP",
+      "id": "colorfly-genre-fluid-sets-shaped-around-the-room",
+      "title": "Colorfly [genre-fluid sets shaped around the room]",
+      "room": "Music stage",
+      "start": 1793788200000,
+      "doNotRecord": false,
+      "card": "cards/FSHBKP.jpg"
+    },
+    {
+      "code": "FUMK8Z",
+      "id": "ethereum-is-decentralized-your-access-isnt",
+      "title": "Ethereum Is Decentralized. Your Access Isn’t.",
+      "room": "Lotus Stage 3",
+      "start": 1793788200000,
+      "doNotRecord": false,
+      "card": "cards/FUMK8Z.jpg"
+    },
+    {
+      "code": "SNJXV7",
+      "id": "goodbye-yolo-signing",
+      "title": "Goodbye YOLO Signing",
+      "room": "Jasmine Stage 4",
+      "start": 1793788200000,
+      "doNotRecord": false,
+      "card": "cards/SNJXV7.jpg"
+    },
+    {
+      "code": "NPS3MV",
+      "id": "icann-is-not-the-enemy-how-to-befriend-the-open-source-standards-bodies",
+      "title": "ICANN is Not the Enemy: How to Befriend the Open Source Standards Bodies",
+      "room": "Lightning Stage",
+      "start": 1793788200000,
+      "doNotRecord": false,
+      "card": "cards/NPS3MV.jpg"
+    },
+    {
+      "code": "JFV8MH",
+      "id": "india-deep-in-tech",
+      "title": "India Deep in Tech",
+      "room": "Community Led Stage",
+      "start": 1793788200000,
+      "doNotRecord": false,
+      "card": "cards/JFV8MH.jpg"
+    },
+    {
+      "code": "7ZJ3EX",
+      "id": "ream-full-fulu-compatibility-and-cross-client-interoperability",
+      "title": "Ream: Full Fulu Compatibility and Cross-Client Interoperability",
+      "room": "Workshop 2",
+      "start": 1793788200000,
+      "doNotRecord": false,
+      "card": "cards/7ZJ3EX.jpg"
+    },
+    {
+      "code": "HACHAY",
+      "id": "trie-another-way-the-new-state-trie-and-ethereums-state-migration",
+      "title": "Trie Another Way: The new state trie and Ethereum’s State Migration",
+      "room": "Lotus Stage 2",
+      "start": 1793788200000,
+      "doNotRecord": false,
+      "card": "cards/HACHAY.jpg"
+    },
+    {
+      "code": "9LVW38",
+      "id": "your-tee-workload-is-attested-now-what-a-practical-threat-model-for-confidential-vms",
+      "title": "Your TEE Workload Is Attested, Now What? A Practical Threat Model for Confidential VMs",
+      "room": "Lotus Stage 1",
+      "start": 1793788200000,
+      "doNotRecord": false,
+      "card": "cards/9LVW38.jpg"
+    },
+    {
+      "code": "UMED8L",
+      "id": "websites-that-outlast-us-dependency-minimalism-and-the-walkaway-test-applied-to-the-frontend-stack",
+      "title": "Websites that outlast us: dependency minimalism and the walkaway test applied to the frontend stack",
+      "room": "Lightning Stage",
+      "start": 1793788800000,
+      "doNotRecord": false,
+      "card": "cards/UMED8L.jpg"
+    },
+    {
+      "code": "UPPQDQ",
+      "id": "a-brief-history-of-correlated-events-and-what-it-means-for-ethereum",
+      "title": "A Brief History of Correlated Events (and What It Means for Ethereum)",
+      "room": "Lightning Stage",
+      "start": 1793789400000,
+      "doNotRecord": false,
+      "card": "cards/UPPQDQ.jpg"
+    },
+    {
+      "code": "KRK7JN",
+      "id": "ream-blackbox-interop-testing-post-quantam-lean-ethereum",
+      "title": "Ream: BlackBox Interop Testing Post Quantam Lean Ethereum",
+      "room": "Workshop 2",
+      "start": 1793789400000,
+      "doNotRecord": false,
+      "card": "cards/KRK7JN.jpg"
+    },
+    {
+      "code": "WX9EGU",
+      "id": "crops-of-india",
+      "title": "CROPS of India",
+      "room": "Community Led Stage",
+      "start": 1793790000000,
+      "doNotRecord": false,
+      "card": "cards/WX9EGU.jpg"
+    },
+    {
+      "code": "JTDJXA",
+      "id": "propamms-the-good-and-the-bad-and-how-to-keep-trustless-infrastructure-competitive",
+      "title": "PropAMMs: the good and the bad, and how to keep trustless infrastructure competitive",
+      "room": "Lotus Stage 3",
+      "start": 1793790000000,
+      "doNotRecord": false,
+      "card": "cards/JTDJXA.jpg"
+    },
+    {
+      "code": "DWL7DB",
+      "id": "the-zero-option-is-possible-trustless-ethereum-on-a-phone-without-rpc",
+      "title": "The Zero Option Is Possible: Trustless Ethereum on a Phone, Without RPC",
+      "room": "Lotus Stage 1",
+      "start": 1793790000000,
+      "doNotRecord": false,
+      "card": "cards/DWL7DB.jpg"
+    },
+    {
+      "code": "Z7MDUP",
+      "id": "tragedy-of-the-ethereum-security-commons",
+      "title": "Tragedy of the Ethereum Security Commons",
+      "room": "Jasmine Stage 4",
+      "start": 1793790000000,
+      "doNotRecord": false,
+      "card": "cards/Z7MDUP.jpg"
+    },
+    {
+      "code": "KN9XAP",
+      "id": "web3-erc-4804-building-a-censorship-resistant-web-on-the-evm",
+      "title": "web3:// (ERC-4804): Building a Censorship-Resistant Web on the EVM",
+      "room": "Lightning Stage",
+      "start": 1793790600000,
+      "doNotRecord": false,
+      "card": "cards/KN9XAP.jpg"
+    },
+    {
+      "code": "8MKQG3",
+      "id": "permissionless-finance-but-with-kyc-what-are-we-even-doing",
+      "title": "Permissionless finance, but with KYC: what are we even doing?",
+      "room": "Lightning Stage",
+      "start": 1793791200000,
+      "doNotRecord": true,
+      "card": "cards/8MKQG3.jpg"
+    },
+    {
+      "code": "ZWULGG",
+      "id": "digital-public-infrastructure",
+      "title": "Digital Public Infrastructure",
+      "room": "Community Led Stage",
+      "start": 1793791800000,
+      "doNotRecord": false,
+      "card": "cards/ZWULGG.jpg"
+    },
+    {
+      "code": "8VLVHJ",
+      "id": "ethereum-defi-landscape-and-dex-v2",
+      "title": "Ethereum DeFi landscape & DEX v2",
+      "room": "Lotus Stage 3",
+      "start": 1793791800000,
+      "doNotRecord": false,
+      "card": "cards/8VLVHJ.jpg"
+    },
+    {
+      "code": "YH8WHM",
+      "id": "getting-ethereum-signer-running-on-open-source-operating-system-and-chip",
+      "title": "Getting Ethereum Signer running on open-source operating system and chip",
+      "room": "Workshop 1",
+      "start": 1793791800000,
+      "doNotRecord": false,
+      "card": "cards/YH8WHM.jpg"
+    },
+    {
+      "code": "MJ7SP9",
+      "id": "hs-libp2p-a-haskell-implementation-of-the-libp2p-stack",
+      "title": "hs-libp2p: A Haskell Implementation of the libp2p Stack",
+      "room": "Lightning Stage",
+      "start": 1793791800000,
+      "doNotRecord": false,
+      "card": "cards/MJ7SP9.jpg"
+    },
+    {
+      "code": "N9KCUV",
+      "id": "simulacra-a-punjabi-wedding-sonic-journey-brooklyn",
+      "title": "Simulacra [a punjabi wedding sonic journey · brooklyn]",
+      "room": "Music stage",
+      "start": 1793791800000,
+      "doNotRecord": false,
+      "card": "cards/N9KCUV.jpg"
+    },
+    {
+      "code": "LV3LQY",
+      "id": "what-can-ethereum-learn-from-other-networks",
+      "title": "What can Ethereum learn from other networks?",
+      "room": "Lightning Stage",
+      "start": 1793792400000,
+      "doNotRecord": false,
+      "card": "cards/LV3LQY.jpg"
+    },
+    {
+      "code": "WNW89D",
+      "id": "ayyussh-2-apps-singer",
+      "title": "Ayyussh ×2 apps [singer]",
+      "room": "Music stage",
+      "start": 1793851200000,
+      "doNotRecord": false,
+      "card": "cards/WNW89D.jpg"
+    },
+    {
+      "code": "QUYYCQ",
+      "id": "welcome-to-opentechsummit-india-where-open-source-meets-decentralized-tech",
+      "title": "Welcome to OpenTechSummit India: Where Open Source Meets Decentralized Tech",
+      "room": "Community Led Stage",
+      "start": 1793851200000,
+      "doNotRecord": false,
+      "card": "cards/QUYYCQ.jpg"
+    },
+    {
+      "code": "SRSEUH",
+      "id": "watch-your-llm-live-with-visdom-release-v031",
+      "title": "Watch your LLM live with Visdom: Release v0.3.1",
+      "room": "Community Led Stage",
+      "start": 1793852100000,
+      "doNotRecord": false,
+      "card": "cards/SRSEUH.jpg"
+    },
+    {
+      "code": "AELNGW",
+      "id": "thiru-pop-songs-on-guitar",
+      "title": "Thiru [pop songs on guitar]",
+      "room": "Music stage",
+      "start": 1793852400000,
+      "doNotRecord": false,
+      "card": "cards/AELNGW.jpg"
+    },
+    {
+      "code": "MKZ8KZ",
+      "id": "academic-track-opening",
+      "title": "Academic track Opening",
+      "room": "Lightning Stage",
+      "start": 1793853000000,
+      "doNotRecord": false,
+      "card": "cards/MKZ8KZ.jpg"
+    },
+    {
+      "code": "ZTFKBL",
+      "id": "beyond-crypto-only-together-are-we-strong",
+      "title": "Beyond Crypto: Only together are we strong",
+      "room": "Jasmine Stage 4",
+      "start": 1793853000000,
+      "doNotRecord": false,
+      "card": "cards/ZTFKBL.jpg"
+    },
+    {
+      "code": "UW7SA8",
+      "id": "encrypted-not-anonymous-a-hands-on-introduction-to-confidential-solidity",
+      "title": "Encrypted, Not Anonymous: A Hands-On Introduction to Confidential Solidity",
+      "room": "Workshop 2",
+      "start": 1793853000000,
+      "doNotRecord": false,
+      "card": "cards/UW7SA8.jpg"
+    },
+    {
+      "code": "MU33LB",
+      "id": "everyone-is-thinking-about-vpns-wrong",
+      "title": "Everyone is thinking about VPNs wrong",
+      "room": "Lotus Stage 3",
+      "start": 1793853000000,
+      "doNotRecord": false,
+      "card": "cards/MU33LB.jpg"
+    },
+    {
+      "code": "TP3NS3",
+      "id": "oops-your-eoa-has-code-now-how-eip-7702-broke-ethereums-old-security-assumptions",
+      "title": "Oops, Your EOA Has Code Now: How EIP-7702 Broke Ethereum's Old Security Assumptions",
+      "room": "Lotus Stage 2",
+      "start": 1793853000000,
+      "doNotRecord": false,
+      "card": "cards/TP3NS3.jpg"
+    },
+    {
+      "code": "HWKQHS",
+      "id": "voxbento-when-2-seconds-matter-building-real-time-ai-captions-and-live-interpretations",
+      "title": "Voxbento: When 2 Seconds Matter — Building Real-Time AI Captions and Live Interpretations",
+      "room": "Community Led Stage",
+      "start": 1793853000000,
+      "doNotRecord": false,
+      "card": "cards/HWKQHS.jpg"
+    },
+    {
+      "code": "BZGM7J",
+      "id": "your-dapp-is-90percent-web2-rebuilding-one-app-on-the-open-stack",
+      "title": "Your dApp is 90% Web2: Rebuilding One App on the Open Stack.",
+      "room": "Workshop 1",
+      "start": 1793853000000,
+      "doNotRecord": false,
+      "card": "cards/BZGM7J.jpg"
+    },
+    {
+      "code": "AHWLQ3",
+      "id": "smart-contract-security-and-zero-knowledge-assurance",
+      "title": "Smart Contract Security and Zero-Knowledge Assurance",
+      "room": "Lightning Stage",
+      "start": 1793853300000,
+      "doNotRecord": false,
+      "card": "cards/AHWLQ3.jpg"
+    },
+    {
+      "code": "WVCKHD",
+      "id": "blockchain-adoption-even-if-you-do-a-lot-of-things-right-you-can-still-be-wrong",
+      "title": "Blockchain adoption: even if you do a lot of things right, you can still be wrong",
+      "room": "Jasmine Stage 4",
+      "start": 1793853600000,
+      "doNotRecord": false,
+      "card": "cards/WVCKHD.jpg"
+    },
+    {
+      "code": "NGLDUZ",
+      "id": "eventyay-how-we-are-building-eventyay-with-the-power-of-community-and-ai",
+      "title": "Eventyay: How we are building eventyay with the power of community and AI",
+      "room": "Community Led Stage",
+      "start": 1793853900000,
+      "doNotRecord": false,
+      "card": "cards/NGLDUZ.jpg"
+    },
+    {
+      "code": "N3HY8T",
+      "id": "building-through-constraints-a-decade-of-web3-in-iran",
+      "title": "Building Through Constraints: A Decade of Web3 in Iran",
+      "room": "Jasmine Stage 4",
+      "start": 1793854200000,
+      "doNotRecord": false,
+      "card": "cards/N3HY8T.jpg"
+    },
+    {
+      "code": "9DPQMF",
+      "id": "devv-playz-professional-pianist-and-keys-14-years-pune",
+      "title": "Devv Playz [professional pianist & keys · 14 years, Pune]",
+      "room": "Music stage",
+      "start": 1793854200000,
+      "doNotRecord": false,
+      "card": "cards/9DPQMF.jpg"
+    },
+    {
+      "code": "BEPHDN",
+      "id": "an-update-on-local-mixing-io",
+      "title": "An update on Local Mixing (iO)",
+      "room": "Lotus Stage 1",
+      "start": 1793854800000,
+      "doNotRecord": false,
+      "card": "cards/BEPHDN.jpg"
+    },
+    {
+      "code": "KRW7NZ",
+      "id": "defending-multisigs-from-offensive-ai-introducing-onchain-security-markets",
+      "title": "Defending Multisigs from Offensive AI: Introducing onchain security markets",
+      "room": "Lotus Stage 2",
+      "start": 1793854800000,
+      "doNotRecord": false,
+      "card": "cards/KRW7NZ.jpg"
+    },
+    {
+      "code": "GDAJNA",
+      "id": "hiding-network-metadata-introduction-to-mixnets",
+      "title": "Hiding Network Metadata: Introduction to Mixnets",
+      "room": "Lotus Stage 3",
+      "start": 1793854800000,
+      "doNotRecord": false,
+      "card": "cards/GDAJNA.jpg"
+    },
+    {
+      "code": "FEZBBV",
+      "id": "weeks-instead-of-years-creating-the-loungemesh-hallway-video-platform",
+      "title": "Weeks instead of Years: Creating the Loungemesh Hallway Video Platform",
+      "room": "Community Led Stage",
+      "start": 1793854800000,
+      "doNotRecord": false,
+      "card": "cards/FEZBBV.jpg"
+    },
+    {
+      "code": "VTL7YX",
+      "id": "open-rails-for-programmable-money-what-tokenization-and-open-source-mean-for-indias-next-digital-layer",
+      "title": "Open Rails for Programmable Money: What Tokenization and Open Source Mean for India's Next Digital Layer",
+      "room": "Community Led Stage",
+      "start": 1793855700000,
+      "doNotRecord": false,
+      "card": "cards/VTL7YX.jpg"
+    },
+    {
+      "code": "8PPMHL",
+      "id": "privacy-in-other-words-infrastructure-for-expressive-freedom",
+      "title": "privacy in other words, infrastructure for expressive freedom",
+      "room": "Jasmine Stage 4",
+      "start": 1793856000000,
+      "doNotRecord": false,
+      "card": "cards/8PPMHL.jpg"
+    },
+    {
+      "code": "FD9ZQQ",
+      "id": "building-an-x402-ai-agent-autonomous-payments-with-cloudflare-workers",
+      "title": "Building an x402 AI Agent: Autonomous payments with Cloudflare Workers",
+      "room": "Workshop 1",
+      "start": 1793856600000,
+      "doNotRecord": false,
+      "card": "cards/FD9ZQQ.jpg"
+    },
+    {
+      "code": "KANRJF",
+      "id": "decolonise-decentralisation-co-building-human-rights-tech",
+      "title": "Decolonise Decentralisation: Co-building Human Rights Tech",
+      "room": "Workshop 2",
+      "start": 1793856600000,
+      "doNotRecord": false,
+      "card": "cards/KANRJF.jpg"
+    },
+    {
+      "code": "MUPDSA",
+      "id": "devp2p-libp2p-ethp2p-untangling-ethereums-networking-stack",
+      "title": "devp2p, libp2p, ethp2p - Untangling Ethereum’s Networking Stack",
+      "room": "Lotus Stage 3",
+      "start": 1793856600000,
+      "doNotRecord": false,
+      "card": "cards/MUPDSA.jpg"
+    },
+    {
+      "code": "7KDZYZ",
+      "id": "diamond-io-new-cryptanalysis-and-efficiency-improvementstoward-ethereum-beyond-finance",
+      "title": "Diamond iO: New Cryptanalysis and Efficiency Improvements—Toward Ethereum Beyond Finance",
+      "room": "Lotus Stage 1",
+      "start": 1793856600000,
+      "doNotRecord": false,
+      "card": "cards/7KDZYZ.jpg"
+    },
+    {
+      "code": "PKTCGR",
+      "id": "prefill-decode-and-despair-disaggregated-llm-serving-made-boring",
+      "title": "Prefill, Decode, and Despair: Disaggregated LLM Serving Made Boring",
+      "room": "Community Led Stage",
+      "start": 1793856600000,
+      "doNotRecord": false,
+      "card": "cards/PKTCGR.jpg"
+    },
+    {
+      "code": "93JNTN",
+      "id": "set-up-visdom-and-watch-your-llm",
+      "title": "Set up Visdom and Watch Your LLM",
+      "room": "CLS - Builders Room",
+      "start": 1793856600000,
+      "doNotRecord": false,
+      "card": "cards/93JNTN.jpg"
+    },
+    {
+      "code": "NHQY3A",
+      "id": "vedz-melodic-electronic-originals",
+      "title": "Vedz [melodic electronic originals]",
+      "room": "Music stage",
+      "start": 1793856600000,
+      "doNotRecord": false,
+      "card": "cards/NHQY3A.jpg"
+    },
+    {
+      "code": "EVV9KL",
+      "id": "vibe-auditing-why-your-ai-security-review-isnt-one",
+      "title": "Vibe-Auditing: Why Your AI Security Review Isn't One",
+      "room": "Lotus Stage 2",
+      "start": 1793856600000,
+      "doNotRecord": false,
+      "card": "cards/EVV9KL.jpg"
+    },
+    {
+      "code": "JKH9SC",
+      "id": "formal-verification-in-the-age-of-ai",
+      "title": "Formal Verification in the Age of AI",
+      "room": "Lotus Stage 2",
+      "start": 1793857200000,
+      "doNotRecord": false,
+      "card": "cards/JKH9SC.jpg"
+    },
+    {
+      "code": "JCXENF",
+      "id": "can-small-open-models-power-reliable-ai-agents",
+      "title": "Can Small Open Models Power Reliable AI Agents?",
+      "room": "Community Led Stage",
+      "start": 1793857500000,
+      "doNotRecord": false,
+      "card": "cards/JCXENF.jpg"
+    },
+    {
+      "code": "BBLZSY",
+      "id": "ai-security-vulnerability-scanning-in-lighthouse",
+      "title": "AI security vulnerability scanning in Lighthouse",
+      "room": "Lotus Stage 2",
+      "start": 1793857800000,
+      "doNotRecord": false,
+      "card": "cards/BBLZSY.jpg"
+    },
+    {
+      "code": "CJTRGB",
+      "id": "digital-objects-what-why-and-how",
+      "title": "Digital Objects: What, Why, and How",
+      "room": "Lotus Stage 1",
+      "start": 1793858400000,
+      "doNotRecord": false,
+      "card": "cards/CJTRGB.jpg"
+    },
+    {
+      "code": "LUVQKE",
+      "id": "dont-review-the-code-formal-specs-ai-synthesis-and-why-the-verifier-is-the-only-thing-you-trust",
+      "title": "Don't Review the Code: Formal Specs, AI Synthesis, and Why the Verifier Is the Only Thing You Trust",
+      "room": "Lotus Stage 2",
+      "start": 1793858400000,
+      "doNotRecord": false,
+      "card": "cards/LUVQKE.jpg"
+    },
+    {
+      "code": "3C3WRV",
+      "id": "the-open-source-escape-hatch-replacing-datadog-without-losing-your-sanity-or-your-budget",
+      "title": "The Open-Source Escape Hatch: Replacing DataDog Without Losing Your Sanity (or Your Budget)",
+      "room": "Community Led Stage",
+      "start": 1793858400000,
+      "doNotRecord": false,
+      "card": "cards/3C3WRV.jpg"
+    },
+    {
+      "code": "ULTD3X",
+      "id": "transcending-gossipsub",
+      "title": "Transcending Gossipsub",
+      "room": "Lotus Stage 3",
+      "start": 1793858400000,
+      "doNotRecord": false,
+      "card": "cards/ULTD3X.jpg"
+    },
+    {
+      "code": "VN33CT",
+      "id": "oso-the-songwriters-circle",
+      "title": "🎼 🎤 OSO — the songwriters' circle",
+      "room": "Music stage",
+      "start": 1793859000000,
+      "doNotRecord": false,
+      "card": "cards/VN33CT.jpg"
+    },
+    {
+      "code": "7CUG3V",
+      "id": "project-hummingbird-minimal-images-maximum-trust",
+      "title": "Project Hummingbird - Minimal Images, Maximum Trust",
+      "room": "Community Led Stage",
+      "start": 1793859300000,
+      "doNotRecord": false,
+      "card": "cards/7CUG3V.jpg"
+    },
+    {
+      "code": "JCGPYB",
+      "id": "collaborative-zksnarks-efficiency-security-and-fair-exchange",
+      "title": "Collaborative zkSNARKs: Efficiency, Security, and Fair-Exchange",
+      "room": "Lightning Stage",
+      "start": 1793859600000,
+      "doNotRecord": false,
+      "card": "cards/JCGPYB.jpg"
+    },
+    {
+      "code": "TNSKHS",
+      "id": "the-state-arrives-as-a-scan-building-syrias-open-record-and-making-it-forkable",
+      "title": "The State Arrives as a Scan: Building Syria's Open Record, and Making It Forkable",
+      "room": "Jasmine Stage 4",
+      "start": 1793859900000,
+      "doNotRecord": false,
+      "card": "cards/TNSKHS.jpg"
+    },
+    {
+      "code": "BPRLWC",
+      "id": "your-standup-written-by-your-commits-scrum-helper-for-open-source-contributors-12",
+      "title": "Your Standup, Written by Your Commits: Scrum Helper for Open Source Contributors (1/2)",
+      "room": "CLS - Builders Room",
+      "start": 1793859900000,
+      "doNotRecord": false,
+      "card": "cards/BPRLWC.jpg"
+    },
+    {
+      "code": "QPP398",
+      "id": "proof-of-work-building-your-career-through-open-source-in-the-age-of-ai",
+      "title": "Proof of Work: Building Your Career Through Open Source in the Age of AI",
+      "room": "Community Led Stage",
+      "start": 1793860200000,
+      "doNotRecord": false,
+      "card": "cards/QPP398.jpg"
+    },
+    {
+      "code": "UGVV8X",
+      "id": "rage-coding-the-mother-of-all-vpns-notes-from-irans-internet-blackouts",
+      "title": "Rage-Coding the Mother of All VPNs: Notes from Iran's Internet Blackouts",
+      "room": "Lotus Stage 3",
+      "start": 1793860200000,
+      "doNotRecord": false,
+      "card": "cards/UGVV8X.jpg"
+    },
+    {
+      "code": "SJC8GV",
+      "id": "security-is-a-leadership-problem",
+      "title": "Security is a leadership problem",
+      "room": "Lotus Stage 2",
+      "start": 1793860200000,
+      "doNotRecord": false,
+      "card": "cards/SJC8GV.jpg"
+    },
+    {
+      "code": "SMQYXM",
+      "id": "set-up-eventyay-docker-up-pr-out-get-ready-for-your-first-contribution-to-a-real-django-vue-platform-used-by-thousands-12",
+      "title": "Set up Eventyay: Docker Up, PR Out - Get Ready for Your First Contribution to a Real Django + Vue Platform Used by Thousands (1/2)",
+      "room": "CLS - Builders Room",
+      "start": 1793860200000,
+      "doNotRecord": false,
+      "card": "cards/SMQYXM.jpg"
+    },
+    {
+      "code": "Z8KKTZ",
+      "id": "what-would-it-take-to-make-ethereum-always-available-designing-unibra-a-connectivity-layer",
+      "title": "What Would It Take to Make Ethereum Always Available? Designing UNIBRA: A Connectivity Layer",
+      "room": "Workshop 2",
+      "start": 1793860200000,
+      "doNotRecord": true,
+      "card": "cards/Z8KKTZ.jpg"
+    },
+    {
+      "code": "PWF3JT",
+      "id": "your-first-core-solidity-smart-contract",
+      "title": "Your First Core Solidity Smart Contract",
+      "room": "Workshop 1",
+      "start": 1793860200000,
+      "doNotRecord": false,
+      "card": "cards/PWF3JT.jpg"
+    },
+    {
+      "code": "KDLJWW",
+      "id": "fireside-chat-how-far-down-does-verifiability-go",
+      "title": "Fireside Chat — how far down does verifiability go?",
+      "room": "Lightning Stage",
+      "start": 1793861400000,
+      "doNotRecord": false,
+      "card": "cards/KDLJWW.jpg"
+    },
+    {
+      "code": "Z7YVKJ",
+      "id": "bug-free-solidity-coding-agents",
+      "title": "Bug-Free Solidity Coding Agents",
+      "room": "Lotus Stage 2",
+      "start": 1793862000000,
+      "doNotRecord": false,
+      "card": "cards/Z7YVKJ.jpg"
+    },
+    {
+      "code": "MVBTJC",
+      "id": "when-the-network-shuts-you-out-measuring-resilience-in-permissionless-networks",
+      "title": "When the Network Shuts You Out: Measuring Resilience in Permissionless Networks",
+      "room": "Lotus Stage 3",
+      "start": 1793862000000,
+      "doNotRecord": false,
+      "card": "cards/MVBTJC.jpg"
+    },
+    {
+      "code": "GUUBQR",
+      "id": "community-snapshot-group-photo",
+      "title": "Community Snapshot Group Photo!",
+      "room": "Community Led Stage",
+      "start": 1793862900000,
+      "doNotRecord": false,
+      "card": "cards/GUUBQR.jpg"
+    },
+    {
+      "code": "JWEMGN",
+      "id": "eez-building-synchronous-ethereum-with-real-time-zk-proofs",
+      "title": "EEZ: Building Synchronous Ethereum with Real-Time ZK Proofs",
+      "room": "Lotus Stage 3",
+      "start": 1793863800000,
+      "doNotRecord": false,
+      "card": "cards/JWEMGN.jpg"
+    },
+    {
+      "code": "L7WTPV",
+      "id": "leanvm",
+      "title": "LeanVM",
+      "room": "Lotus Stage 1",
+      "start": 1793863800000,
+      "doNotRecord": false,
+      "card": "cards/L7WTPV.jpg"
+    },
+    {
+      "code": "SFK8YG",
+      "id": "frivail-a-data-availability-scheme-based-on-fri-binius",
+      "title": "FRIVail: A Data Availability Scheme based on FRI Binius",
+      "room": "Lotus Stage 1",
+      "start": 1793865600000,
+      "doNotRecord": false,
+      "card": "cards/SFK8YG.jpg"
+    },
+    {
+      "code": "MSPKQP",
+      "id": "tor-ama-with-roger-dingledine",
+      "title": "Tor AMA with Roger Dingledine",
+      "room": "Jasmine Stage 4",
+      "start": 1793865600000,
+      "doNotRecord": false,
+      "card": "cards/MSPKQP.jpg"
+    },
+    {
+      "code": "KZLR87",
+      "id": "ai-can-write-the-patch-can-you-get-it-merged",
+      "title": "AI Can Write the Patch — Can You Get It Merged?",
+      "room": "Community Led Stage",
+      "start": 1793866500000,
+      "doNotRecord": false,
+      "card": "cards/KZLR87.jpg"
+    },
+    {
+      "code": "ZNGJGK",
+      "id": "set-up-eventyay-docker-up-pr-out-get-ready-for-your-first-contribution-to-a-real-django-vue-platform-used-by-thousands-22",
+      "title": "Set up Eventyay: Docker Up, PR Out - Get Ready for Your First Contribution to a Real Django + Vue Platform Used by Thousands (2/2)",
+      "room": "CLS - Builders Room",
+      "start": 1793866500000,
+      "doNotRecord": false,
+      "card": "cards/ZNGJGK.jpg"
+    },
+    {
+      "code": "XQXYLL",
+      "id": "can-ethereum-give-citizens-a-better-deal-on-their-energy-data",
+      "title": "Can Ethereum Give Citizens a Better Deal on Their Energy Data?",
+      "room": "Lightning Stage",
+      "start": 1793866800000,
+      "doNotRecord": false,
+      "card": "cards/XQXYLL.jpg"
+    },
+    {
+      "code": "LAVNHC",
+      "id": "autonomous-agents",
+      "title": "Autonomous agents",
+      "room": "Lightning Stage",
+      "start": 1793867400000,
+      "doNotRecord": false,
+      "card": "cards/LAVNHC.jpg"
+    },
+    {
+      "code": "J9JVWK",
+      "id": "enforcing-transaction-outcomes-with-native-on-chain-state-change-validation-in-eip-7906",
+      "title": "Enforcing transaction outcomes with native on-chain state change validation in EIP-7906",
+      "room": "Workshop 1",
+      "start": 1793867400000,
+      "doNotRecord": false,
+      "card": "cards/J9JVWK.jpg"
+    },
+    {
+      "code": "8YRHCY",
+      "id": "evm-asm-experiences-writing-the-evm-directly-in-risc-v-assembly",
+      "title": "evm-asm: Experiences Writing the EVM, Directly in Risc-V Assembly",
+      "room": "Lotus Stage 2",
+      "start": 1793867400000,
+      "doNotRecord": false,
+      "card": "cards/8YRHCY.jpg"
+    },
+    {
+      "code": "DVN8EE",
+      "id": "from-first-mover-to-blueprint-lessons-from-bhutans-decentralized-id",
+      "title": "From First Mover to Blueprint: Lessons from Bhutan’s Decentralized ID",
+      "room": "Jasmine Stage 4",
+      "start": 1793867400000,
+      "doNotRecord": false,
+      "card": "cards/DVN8EE.jpg"
+    },
+    {
+      "code": "UM7HQM",
+      "id": "how-to-improve-privacy-and-censorship-resistance-by-integrating-a-mixnet",
+      "title": "How to improve privacy and censorship-resistance by integrating a mixnet",
+      "room": "Workshop 2",
+      "start": 1793867400000,
+      "doNotRecord": false,
+      "card": "cards/UM7HQM.jpg"
+    },
+    {
+      "code": "BU8P8B",
+      "id": "steal-now-reveal-never-the-quiet-arrival-of-quantum-attacks",
+      "title": "Steal Now, Reveal Never: The Quiet Arrival of Quantum Attacks",
+      "room": "Lotus Stage 1",
+      "start": 1793867400000,
+      "doNotRecord": false,
+      "card": "cards/BU8P8B.jpg"
+    },
+    {
+      "code": "ZWHMKX",
+      "id": "watch-your-models-learn-real-time-aiml-experiments-with-visdom",
+      "title": "Watch Your Models Learn: Real-Time AI/ML Experiments with Visdom",
+      "room": "Community Led Stage",
+      "start": 1793867400000,
+      "doNotRecord": false,
+      "card": "cards/ZWHMKX.jpg"
+    },
+    {
+      "code": "NBRCQS",
+      "id": "privacy-preserving-coordination-rails-for-municipal-energy-communities",
+      "title": "Privacy Preserving Coordination Rails for Municipal Energy Communities",
+      "room": "Lightning Stage",
+      "start": 1793868000000,
+      "doNotRecord": false,
+      "card": "cards/NBRCQS.jpg"
+    },
+    {
+      "code": "NRN3LK",
+      "id": "from-experiments-to-publications-a-reproducibility-suite-for-visdom",
+      "title": "From Experiments to Publications: A Reproducibility Suite for Visdom",
+      "room": "Community Led Stage",
+      "start": 1793868300000,
+      "doNotRecord": false,
+      "card": "cards/NRN3LK.jpg"
+    },
+    {
+      "code": "HGQQNC",
+      "id": "energy-data-markets",
+      "title": "Energy data markets",
+      "room": "Lightning Stage",
+      "start": 1793868600000,
+      "doNotRecord": false,
+      "card": "cards/HGQQNC.jpg"
+    },
+    {
+      "code": "XWHQKC",
+      "id": "challenges-of-quantum-safe-privacy-on-ethereum",
+      "title": "Challenges of Quantum-Safe Privacy on Ethereum",
+      "room": "Lotus Stage 1",
+      "start": 1793869200000,
+      "doNotRecord": false,
+      "card": "cards/XWHQKC.jpg"
+    },
+    {
+      "code": "9HYHA9",
+      "id": "digital-identity-for-nations-unlinkability-subsidiarity-and-global-interoperability",
+      "title": "Digital Identity for Nations: Unlinkability, Subsidiarity and Global Interoperability",
+      "room": "Jasmine Stage 4",
+      "start": 1793869200000,
+      "doNotRecord": false,
+      "card": "cards/9HYHA9.jpg"
+    },
+    {
+      "code": "XAD8FT",
+      "id": "formally-verifying-a-shielded-pool-in-lean-4",
+      "title": "Formally Verifying a Shielded Pool in Lean 4",
+      "room": "Lotus Stage 2",
+      "start": 1793869200000,
+      "doNotRecord": false,
+      "card": "cards/XAD8FT.jpg"
+    },
+    {
+      "code": "ETGLCN",
+      "id": "rebuilding-visdom-ai-visualizations-in-five-layers",
+      "title": "Rebuilding Visdom AI Visualizations in Five Layers",
+      "room": "Community Led Stage",
+      "start": 1793869200000,
+      "doNotRecord": false,
+      "card": "cards/ETGLCN.jpg"
+    },
+    {
+      "code": "WJDESJ",
+      "id": "when-your-ai-agent-uses-your-wallet-what-are-you-trusting",
+      "title": "When your AI agent uses your wallet, what are you trusting?",
+      "room": "Lightning Stage",
+      "start": 1793869200000,
+      "doNotRecord": false,
+      "card": "cards/WJDESJ.jpg"
+    },
+    {
+      "code": "PA9EBV",
+      "id": "you-probably-dont-need-your-own-chain-evidence-from-dissolving-one-at-scale",
+      "title": "You Probably Don't Need Your Own Chain: Evidence From Dissolving One at Scale",
+      "room": "Lotus Stage 3",
+      "start": 1793869200000,
+      "doNotRecord": false,
+      "card": "cards/PA9EBV.jpg"
+    },
+    {
+      "code": "GJTGEJ",
+      "id": "leansphincs-signing-for-the-long-run",
+      "title": "leanSPHINCS: Signing for the long run",
+      "room": "Lotus Stage 1",
+      "start": 1793869800000,
+      "doNotRecord": false,
+      "card": "cards/GJTGEJ.jpg"
+    },
+    {
+      "code": "WX8YC3",
+      "id": "verified-argument-flow",
+      "title": "Verified argument flow",
+      "room": "Lightning Stage",
+      "start": 1793869800000,
+      "doNotRecord": false,
+      "card": "cards/WX8YC3.jpg"
+    },
+    {
+      "code": "ZNFEDX",
+      "id": "your-standup-written-by-your-commits-scrum-helper-for-open-source-contributors-22",
+      "title": "Your Standup, Written by Your Commits: Scrum Helper for Open Source Contributors (2/2)",
+      "room": "CLS - Builders Room",
+      "start": 1793869800000,
+      "doNotRecord": false,
+      "card": "cards/ZNFEDX.jpg"
+    },
+    {
+      "code": "GJKMVD",
+      "id": "let-the-agent-cook-building-ai-native-developer-workflows",
+      "title": "Let the Agent Cook: Building AI-Native Developer Workflows",
+      "room": "CLS - Builders Room",
+      "start": 1793870100000,
+      "doNotRecord": false,
+      "card": "cards/GJKMVD.jpg"
+    },
+    {
+      "code": "AU7YLW",
+      "id": "zero-boilerplate-dashboards-live-autologging-for-keras-and-pytorch-with-visdom",
+      "title": "Zero-Boilerplate Dashboards: Live Autologging for Keras and PyTorch with Visdom",
+      "room": "Community Led Stage",
+      "start": 1793870100000,
+      "doNotRecord": false,
+      "card": "cards/AU7YLW.jpg"
+    },
+    {
+      "code": "7QT9HK",
+      "id": "block-synthesis",
+      "title": "Block synthesis",
+      "room": "Lightning Stage",
+      "start": 1793870400000,
+      "doNotRecord": false,
+      "card": "cards/7QT9HK.jpg"
+    },
+    {
+      "code": "SBGB8A",
+      "id": "prisoners-of-work-can-proof-of-work-detect-quantum-computers",
+      "title": "Prisoners of Work: Can Proof-of-Work Detect Quantum Computers?",
+      "room": "Lotus Stage 1",
+      "start": 1793870400000,
+      "doNotRecord": false,
+      "card": "cards/SBGB8A.jpg"
+    },
+    {
+      "code": "GYZ9CC",
+      "id": "ask-me-anything-with-roger-dingledine-tor-privacy-and-20-years-of-open-source",
+      "title": "Ask Me Anything with Roger Dingledine: Tor, Privacy and 20+ Years of Open Source",
+      "room": "Community Led Stage",
+      "start": 1793871000000,
+      "doNotRecord": false,
+      "card": "cards/GYZ9CC.jpg"
+    },
+    {
+      "code": "NFAMP9",
+      "id": "formal-verification-of-consensus-protocols-in-lean",
+      "title": "Formal Verification of Consensus Protocols in Lean",
+      "room": "Workshop 1",
+      "start": 1793871000000,
+      "doNotRecord": false,
+      "card": "cards/NFAMP9.jpg"
+    },
+    {
+      "code": "EDNU8K",
+      "id": "gateway-free-by-design-building-a-browser-for-permissionless-networks",
+      "title": "Gateway-Free by Design: Building a Browser for Permissionless Networks",
+      "room": "Lotus Stage 3",
+      "start": 1793871000000,
+      "doNotRecord": false,
+      "card": "cards/EDNU8K.jpg"
+    },
+    {
+      "code": "SCRFFM",
+      "id": "post-quantum-accounts-today-benchmarking-falcon-512-verification-inside-starknets-validate",
+      "title": "Post-Quantum Accounts Today: Benchmarking Falcon-512 Verification Inside Starknet's `__validate__`",
+      "room": "Lotus Stage 1",
+      "start": 1793871000000,
+      "doNotRecord": false,
+      "card": "cards/SCRFFM.jpg"
+    },
+    {
+      "code": "MBVZA3",
+      "id": "the-big-ethereum-trivia-quiz",
+      "title": "The Big Ethereum Trivia Quiz",
+      "room": "Workshop 2",
+      "start": 1793871000000,
+      "doNotRecord": false,
+      "card": "cards/MBVZA3.jpg"
+    },
+    {
+      "code": "EDURM9",
+      "id": "towards-formally-verified-zkevms",
+      "title": "Towards Formally Verified zkEVMs",
+      "room": "Lotus Stage 2",
+      "start": 1793871000000,
+      "doNotRecord": false,
+      "card": "cards/EDURM9.jpg"
+    },
+    {
+      "code": "U3KQB3",
+      "id": "what-we-learned-bringing-decentralized-justice-to-argentine-citizens",
+      "title": "What we learned bringing decentralized justice to Argentine citizens",
+      "room": "Jasmine Stage 4",
+      "start": 1793871000000,
+      "doNotRecord": false,
+      "card": "cards/U3KQB3.jpg"
+    },
+    {
+      "code": "SKXHZH",
+      "id": "see-you-in-robot-court-justice-in-the-agent-economy",
+      "title": "See You in (Robot) Court: Justice in the Agent Economy",
+      "room": "Jasmine Stage 4",
+      "start": 1793871600000,
+      "doNotRecord": false,
+      "card": "cards/SKXHZH.jpg"
+    },
+    {
+      "code": "BJSPR9",
+      "id": "who-should-benefit-when-transactions-are-ordered-fair-mev-redistribution",
+      "title": "Who Should Benefit When Transactions Are Ordered? Fair MEV Redistribution",
+      "room": "Lightning Stage",
+      "start": 1793871600000,
+      "doNotRecord": false,
+      "card": "cards/BJSPR9.jpg"
+    },
+    {
+      "code": "CUHXF8",
+      "id": "when-agents-build-and-agents-judge-lessons-from-running-ethereums-first-agent-native-hackathon",
+      "title": "When Agents Build and Agents Judge: Lessons from Running Ethereum's First Agent-Native Hackathon",
+      "room": "Jasmine Stage 4",
+      "start": 1793872200000,
+      "doNotRecord": false,
+      "card": "cards/CUHXF8.jpg"
+    },
+    {
+      "code": "PYCGBJ",
+      "id": "a-yellow-paper-you-can-run-an-independent-executable-evm-spec-in-lean-4",
+      "title": "A Yellow Paper you can run: an independent executable EVM spec in Lean 4",
+      "room": "Lotus Stage 2",
+      "start": 1793872800000,
+      "doNotRecord": false,
+      "card": "cards/PYCGBJ.jpg"
+    },
+    {
+      "code": "SPVJV8",
+      "id": "who-can-turn-off-your-ethereum-app-a-full-stack-walk-away-test",
+      "title": "Who Can Turn Off Your Ethereum App? A Full-Stack Walk-Away Test",
+      "room": "Lotus Stage 3",
+      "start": 1793872800000,
+      "doNotRecord": false,
+      "card": "cards/SPVJV8.jpg"
+    },
+    {
+      "code": "AFWHL8",
+      "id": "who-pays-when-the-machine-is-wrong",
+      "title": "Who Pays When the Machine Is Wrong?",
+      "room": "Jasmine Stage 4",
+      "start": 1793872800000,
+      "doNotRecord": false,
+      "card": "cards/AFWHL8.jpg"
+    },
+    {
+      "code": "7LKURX",
+      "id": "you-cant-withdraw-your-privacy-pq-analysis-of-kohaku-privacy-protocols",
+      "title": "You can't withdraw your privacy: PQ analysis of Kohaku privacy protocols",
+      "room": "Lotus Stage 1",
+      "start": 1793872800000,
+      "doNotRecord": false,
+      "card": "cards/7LKURX.jpg"
+    },
+    {
+      "code": "KQJAWK",
+      "id": "a-grammar-for-proportionality-analysis-in-digital-systems",
+      "title": "A Grammar for Proportionality Analysis in Digital Systems",
+      "room": "Lightning Stage",
+      "start": 1793873400000,
+      "doNotRecord": false,
+      "card": "cards/KQJAWK.jpg"
+    },
+    {
+      "code": "VUGGD7",
+      "id": "dx-is-secret-sauce-of-open-source",
+      "title": "DX is Secret Sauce of Open Source",
+      "room": "Community Led Stage",
+      "start": 1793873700000,
+      "doNotRecord": false,
+      "card": "cards/VUGGD7.jpg"
+    },
+    {
+      "code": "XYCJTF",
+      "id": "metal3-meets-kubevirtbmc-provisioning-kubevirt-vms-like-bare-metal",
+      "title": "Metal3 Meets KubeVirtBMC: Provisioning KubeVirt VMs Like Bare Metal",
+      "room": "CLS - Builders Room",
+      "start": 1793873700000,
+      "doNotRecord": false,
+      "card": "cards/XYCJTF.jpg"
+    },
+    {
+      "code": "SKKVHK",
+      "id": "anonymity-is-censorship-resistance-efficient-anonymous-broadcast-under-censorship",
+      "title": "Anonymity Is Censorship Resistance: Efficient Anonymous Broadcast Under Censorship",
+      "room": "Lotus Stage 1",
+      "start": 1793874600000,
+      "doNotRecord": false,
+      "card": "cards/SKKVHK.jpg"
+    },
+    {
+      "code": "9VGQSC",
+      "id": "bootable-containers-why-and-how",
+      "title": "Bootable Containers? Why and how",
+      "room": "CLS - Builders Room",
+      "start": 1793874600000,
+      "doNotRecord": false,
+      "card": "cards/9VGQSC.jpg"
+    },
+    {
+      "code": "EAGGQB",
+      "id": "dao-governance-failures-and-ways-of-mitigation",
+      "title": "DAO Governance failures and ways of mitigation",
+      "room": "Jasmine Stage 4",
+      "start": 1793874600000,
+      "doNotRecord": false,
+      "card": "cards/EAGGQB.jpg"
+    },
+    {
+      "code": "QACB3T",
+      "id": "flutter-meets-hardware-led-badges-epaper-and-pocket-science-lab",
+      "title": "Flutter Meets Hardware: LED Badges, ePaper and Pocket Science Lab",
+      "room": "Community Led Stage",
+      "start": 1793874600000,
+      "doNotRecord": false,
+      "card": "cards/QACB3T.jpg"
+    },
+    {
+      "code": "SAWU7Y",
+      "id": "formal-verification-in-lean",
+      "title": "Formal Verification in Lean",
+      "room": "Workshop 2",
+      "start": 1793874600000,
+      "doNotRecord": false,
+      "card": "cards/SAWU7Y.jpg"
+    },
+    {
+      "code": "3PC37L",
+      "id": "from-production-rust-to-lean-4-proofs-a-verification-pipeline-with-ai-provers",
+      "title": "From Production Rust to Lean 4 Proofs: A Verification Pipeline with AI Provers",
+      "room": "Lotus Stage 2",
+      "start": 1793874600000,
+      "doNotRecord": false,
+      "card": "cards/3PC37L.jpg"
+    },
+    {
+      "code": "WPKHPZ",
+      "id": "leansphincs-for-developers-how-to-build-on-post-quantum-ethereum",
+      "title": "leanSPHINCS for developers: how to build on Post-Quantum Ethereum",
+      "room": "Workshop 1",
+      "start": 1793874600000,
+      "doNotRecord": false,
+      "card": "cards/WPKHPZ.jpg"
+    },
+    {
+      "code": "V8FWRD",
+      "id": "naman-dj-set-w-zk-proofs-streamed-through-a-custom-music-l2",
+      "title": "Naman [DJ set w/ zk-proofs streamed through a custom music L2]",
+      "room": "Music stage",
+      "start": 1793874600000,
+      "doNotRecord": false,
+      "card": "cards/V8FWRD.jpg"
+    },
+    {
+      "code": "NBDGZU",
+      "id": "the-defi-walkaway-test-can-users-actually-leave",
+      "title": "The DeFi Walkaway Test: Can Users Actually Leave?",
+      "room": "Lotus Stage 3",
+      "start": 1793874600000,
+      "doNotRecord": false,
+      "card": "cards/NBDGZU.jpg"
+    },
+    {
+      "code": "RBDERC",
+      "id": "what-actually-happens-when-you-send-an-llm-request-to-kubernetes",
+      "title": "What Actually Happens When You Send an LLM Request to Kubernetes?",
+      "room": "Community Led Stage",
+      "start": 1793874900000,
+      "doNotRecord": false,
+      "card": "cards/RBDERC.jpg"
+    },
+    {
+      "code": "XDANFZ",
+      "id": "closing-keynote-public-infrastructure-and-the-people-it-records",
+      "title": "Closing Keynote — public infrastructure and the people it records",
+      "room": "Lightning Stage",
+      "start": 1793875200000,
+      "doNotRecord": false,
+      "card": "cards/XDANFZ.jpg"
+    },
+    {
+      "code": "XAH9KH",
+      "id": "website-builder-for-artisans",
+      "title": "Website Builder for Artisans",
+      "room": "Community Led Stage",
+      "start": 1793875200000,
+      "doNotRecord": false,
+      "card": "cards/XAH9KH.jpg"
+    },
+    {
+      "code": "DUU3MK",
+      "id": "how-to-use-visdom-to-visualize-ethereum-and-blockchain-data",
+      "title": "How to use Visdom to Visualize Ethereum and Blockchain Data",
+      "room": "CLS - Builders Room",
+      "start": 1793875500000,
+      "doNotRecord": false,
+      "card": "cards/DUU3MK.jpg"
+    },
+    {
+      "code": "HRSPVY",
+      "id": "stop-twisting-every-dial-one-open-inference-tuning-lesson",
+      "title": "Stop twisting every dial: One open Inference tuning lesson",
+      "room": "Community Led Stage",
+      "start": 1793875500000,
+      "doNotRecord": false,
+      "card": "cards/HRSPVY.jpg"
+    },
+    {
+      "code": "SDZ8VN",
+      "id": "the-steering-loop-harness-engineering-with-opencode-for-the-agent-first-era",
+      "title": "The Steering Loop: Harness Engineering with OpenCode for the Agent-First Era",
+      "room": "Community Led Stage",
+      "start": 1793875800000,
+      "doNotRecord": false,
+      "card": "cards/SDZ8VN.jpg"
+    },
+    {
+      "code": "AQHNWK",
+      "id": "execution-got-cheap-judgment-didnt",
+      "title": "Execution Got Cheap. Judgment Didn't.",
+      "room": "Community Led Stage",
+      "start": 1793876100000,
+      "doNotRecord": false,
+      "card": "cards/AQHNWK.jpg"
+    },
+    {
+      "code": "MW8QFF",
+      "id": "enshrined-payment-channels-a-stateless-post-quantum-confidential-rollup-design",
+      "title": "Enshrined Payment Channels: A Stateless, Post-Quantum, Confidential Rollup Design",
+      "room": "Lotus Stage 1",
+      "start": 1793876400000,
+      "doNotRecord": false,
+      "card": "cards/MW8QFF.jpg"
+    },
+    {
+      "code": "GMTHTA",
+      "id": "mannuu-blockravers-burned-the-man-with-this-set",
+      "title": "mannuu [blockravers · burned the Man with this set]",
+      "room": "Music stage",
+      "start": 1793876400000,
+      "doNotRecord": false,
+      "card": "cards/GMTHTA.jpg"
+    },
+    {
+      "code": "PRBXKM",
+      "id": "measuring-community-vitality-navigating-multi-stakeholder-governance-in-open-source",
+      "title": "Measuring Community Vitality: Navigating Multi-Stakeholder Governance in Open Source",
+      "room": "Community Led Stage",
+      "start": 1793876400000,
+      "doNotRecord": false,
+      "card": "cards/PRBXKM.jpg"
+    },
+    {
+      "code": "BBGJPJ",
+      "id": "paying-nodes-that-actually-execute-proofs-a-free-rider-cannot-copy-from-a-peer",
+      "title": "Paying Nodes That Actually Execute: Proofs a Free-Rider Cannot Copy From a Peer",
+      "room": "Lotus Stage 3",
+      "start": 1793876400000,
+      "doNotRecord": false,
+      "card": "cards/BBGJPJ.jpg"
+    },
+    {
+      "code": "GPUWKZ",
+      "id": "why-every-supply-chain-blockchain-died-capture-neutrality-and-lessons-from-inside",
+      "title": "Why Every Supply Chain Blockchain Died: Capture, Neutrality, and Lessons from Inside",
+      "room": "Jasmine Stage 4",
+      "start": 1793876400000,
+      "doNotRecord": false,
+      "card": "cards/GPUWKZ.jpg"
+    },
+    {
+      "code": "BXK7HC",
+      "id": "from-event-data-to-social-campaigns-automating-event-promotion-with-eventyay",
+      "title": "From Event Data to Social Campaigns: Automating Event Promotion with Eventyay",
+      "room": "Community Led Stage",
+      "start": 1793876700000,
+      "doNotRecord": false,
+      "card": "cards/BXK7HC.jpg"
+    },
+    {
+      "code": "FL8FB8",
+      "id": "i-built-a-linter-for-human-bugs-then-i-ran-it-on-eventyay",
+      "title": "I Built a Linter for Human bugs, Then I Ran It on Eventyay",
+      "room": "Community Led Stage",
+      "start": 1793877000000,
+      "doNotRecord": false,
+      "card": "cards/FL8FB8.jpg"
+    },
+    {
+      "code": "VGDDHM",
+      "id": "teams-shifts-and-certificates-all-in-one-place-open-source-volunteer-and-shift-management",
+      "title": "Teams, Shifts and Certificates, All in One Place: Open Source Volunteer and Shift Management",
+      "room": "Community Led Stage",
+      "start": 1793877300000,
+      "doNotRecord": false,
+      "card": "cards/VGDDHM.jpg"
+    },
+    {
+      "code": "KSPBWF",
+      "id": "automating-conference-video-post-production-with-veditor",
+      "title": "Automating Conference Video Post-Production with VEditor",
+      "room": "Community Led Stage",
+      "start": 1793877600000,
+      "doNotRecord": false,
+      "card": "cards/KSPBWF.jpg"
+    },
+    {
+      "code": "RKVULN",
+      "id": "how-to-contribute-to-oss-without-annoying-maintainers",
+      "title": "How to contribute to OSS without annoying maintainers?",
+      "room": "Community Led Stage",
+      "start": 1793877900000,
+      "doNotRecord": false,
+      "card": "cards/RKVULN.jpg"
+    },
+    {
+      "code": "9S3PQS",
+      "id": "decentralized-video-streaming-architecture-performance-and-trade-offs",
+      "title": "Decentralized video streaming: architecture, performance, and trade-offs",
+      "room": "Lotus Stage 3",
+      "start": 1793878200000,
+      "doNotRecord": false,
+      "card": "cards/9S3PQS.jpg"
+    },
+    {
+      "code": "LRW7SZ",
+      "id": "pqc-post-quantum-collaboration",
+      "title": "PQC: Post-Quantum Collaboration?",
+      "room": "Lotus Stage 1",
+      "start": 1793878200000,
+      "doNotRecord": false,
+      "card": "cards/LRW7SZ.jpg"
+    },
+    {
+      "code": "LAFSE7",
+      "id": "what-fossasia-maintainers-wish-contributors-knew-ask-us-anything",
+      "title": "What FOSSASIA Maintainers Wish Contributors Knew: Ask Us Anything",
+      "room": "Community Led Stage",
+      "start": 1793878200000,
+      "doNotRecord": false,
+      "card": "cards/LAFSE7.jpg"
+    },
+    {
+      "code": "MGD3UC",
+      "id": "oso-dancefloor-till-the-last-note",
+      "title": "🎼 🕺 OSO — dancefloor till the last note",
+      "room": "Music stage",
+      "start": 1793880000000,
+      "doNotRecord": false,
+      "card": "cards/MGD3UC.jpg"
+    },
+    {
+      "code": "GUYLQ7",
+      "id": "what-you-build-next-closing-remarks-and-the-road-ahead",
+      "title": "What You Build Next: Closing Remarks and the Road Ahead",
+      "room": "Community Led Stage",
+      "start": 1793880000000,
+      "doNotRecord": false,
+      "card": "cards/GUYLQ7.jpg"
+    },
+    {
+      "code": "PJ9EXB",
+      "id": "oso-the-long-goodbye-morning",
+      "title": "🎼 🌺 OSO — the long goodbye [morning]",
+      "room": "Music stage",
+      "start": 1793937600000,
+      "doNotRecord": false,
+      "card": "cards/PJ9EXB.jpg"
+    },
+    {
+      "code": "ARYWNF",
+      "id": "commons-as-a-service-programmable-funding-for-shared-digital-infrastructure",
+      "title": "Commons as a Service: Programmable Funding for Shared Digital Infrastructure",
+      "room": "Lightning Stage",
+      "start": 1793939400000,
+      "doNotRecord": false,
+      "card": "cards/ARYWNF.jpg"
+    },
+    {
+      "code": "9MFZ3R",
+      "id": "how-to-build-a-society-incubator-edge-city",
+      "title": "How to build a society incubator - Edge City",
+      "room": "Jasmine Stage 4",
+      "start": 1793939400000,
+      "doNotRecord": false,
+      "card": "cards/9MFZ3R.jpg"
+    },
+    {
+      "code": "VZC3EG",
+      "id": "latest-developments-in-open-silicon",
+      "title": "Latest Developments in Open Silicon",
+      "room": "Lotus Stage 1",
+      "start": 1793939400000,
+      "doNotRecord": false,
+      "card": "cards/VZC3EG.jpg"
+    },
+    {
+      "code": "AHRYJJ",
+      "id": "private-information-retrieval-for-ethereum",
+      "title": "Private Information Retrieval for Ethereum",
+      "room": "Lotus Stage 2",
+      "start": 1793939400000,
+      "doNotRecord": false,
+      "card": "cards/AHRYJJ.jpg"
+    },
+    {
+      "code": "MEEHFX",
+      "id": "the-future-of-prediction-markets-is-decision-markets",
+      "title": "The Future of Prediction Markets is Decision Markets!",
+      "room": "Workshop 2",
+      "start": 1793939400000,
+      "doNotRecord": false,
+      "card": "cards/MEEHFX.jpg"
+    },
+    {
+      "code": "E9Y39K",
+      "id": "the-tech-job-market-in-the-ai-era",
+      "title": "The tech job market in the AI era",
+      "room": "Community Led Stage",
+      "start": 1793939400000,
+      "doNotRecord": false,
+      "card": "cards/E9Y39K.jpg"
+    },
+    {
+      "code": "FWNHDK",
+      "id": "unicef-cryptofund-workshop-on-creative-approaches-for-innovative-fundraising-and-engagement",
+      "title": "UNICEF Cryptofund - Workshop on creative approaches for innovative fundraising and engagement",
+      "room": "Workshop 1",
+      "start": 1793939400000,
+      "doNotRecord": true,
+      "card": "cards/FWNHDK.jpg"
+    },
+    {
+      "code": "BTFDF3",
+      "id": "using-ethereum-gas-economics-to-blow-up-the-state-size",
+      "title": "Using Ethereum gas economics to blow up the state size",
+      "room": "Lotus Stage 3",
+      "start": 1793939400000,
+      "doNotRecord": false,
+      "card": "cards/BTFDF3.jpg"
+    },
+    {
+      "code": "JNH7AU",
+      "id": "principles-of-ethereum",
+      "title": "Principles of Ethereum",
+      "room": "Lightning Stage",
+      "start": 1793940000000,
+      "doNotRecord": false,
+      "card": "cards/JNH7AU.jpg"
+    },
+    {
+      "code": "HZUQ3S",
+      "id": "zugrama-building-a-permanent-village-to-make-crops-win",
+      "title": "ZuGrama: Building a permanent village to make CROPS win",
+      "room": "Jasmine Stage 4",
+      "start": 1793940000000,
+      "doNotRecord": false,
+      "card": "cards/HZUQ3S.jpg"
+    },
+    {
+      "code": "XVXTL3",
+      "id": "reimagining-ethereum-through-a-buddhist-inspired-pop-up-village",
+      "title": "Reimagining Ethereum Through a Buddhist-Inspired Pop-Up Village",
+      "room": "Jasmine Stage 4",
+      "start": 1793940600000,
+      "doNotRecord": false,
+      "card": "cards/XVXTL3.jpg"
+    },
+    {
+      "code": "YGCHZV",
+      "id": "trust-beyond-code-governance-in-an-islamic-blockchain",
+      "title": "Trust Beyond Code: Governance in an Islamic Blockchain",
+      "room": "Lightning Stage",
+      "start": 1793940600000,
+      "doNotRecord": true,
+      "card": "cards/YGCHZV.jpg"
+    },
+    {
+      "code": "YY3KTY",
+      "id": "honey-i-shrunk-the-test-run-protocol-native-execution-client-system-tests-10-faster",
+      "title": "Honey, I Shrunk the Test Run: Protocol-Native Execution Client System Tests, 10-??× Faster",
+      "room": "Lotus Stage 3",
+      "start": 1793941200000,
+      "doNotRecord": false,
+      "card": "cards/YY3KTY.jpg"
+    },
+    {
+      "code": "S7MQJL",
+      "id": "municipal-voting-goes-on-chain-encrypted-verifiable-elections-for-the-real-world",
+      "title": "Municipal Voting Goes On-Chain: Encrypted, Verifiable Elections for the Real World",
+      "room": "Lightning Stage",
+      "start": 1793941200000,
+      "doNotRecord": false,
+      "card": "cards/S7MQJL.jpg"
+    },
+    {
+      "code": "VW97LB",
+      "id": "the-next-centralised-dependency-is-your-bootloader",
+      "title": "The Next Centralised Dependency Is Your Bootloader",
+      "room": "Lotus Stage 1",
+      "start": 1793941200000,
+      "doNotRecord": false,
+      "card": "cards/VW97LB.jpg"
+    },
+    {
+      "code": "D7ZPJS",
+      "id": "your-rpc-provider-sees-too-much-a-standard-for-anonymized-wallet-reads",
+      "title": "Your RPC provider sees too much: a standard for anonymized wallet reads",
+      "room": "Lotus Stage 2",
+      "start": 1793941200000,
+      "doNotRecord": false,
+      "card": "cards/D7ZPJS.jpg"
+    },
+    {
+      "code": "XLDW7D",
+      "id": "solving-crops-last-mile-problem",
+      "title": "Solving CROPS' last-mile problem",
+      "room": "Lightning Stage",
+      "start": 1793941800000,
+      "doNotRecord": false,
+      "card": "cards/XLDW7D.jpg"
+    },
+    {
+      "code": "MBVJBQ",
+      "id": "the-charity-sector-is-breaking-can-ethereum-help-fix-it",
+      "title": "The Charity Sector Is Breaking. Can Ethereum Help Fix It?",
+      "room": "Lightning Stage",
+      "start": 1793942400000,
+      "doNotRecord": false,
+      "card": "cards/MBVJBQ.jpg"
+    },
+    {
+      "code": "R8NEAK",
+      "id": "what-pop-up-cities-have-proven-so-far-and-how-to-make-it-travel-further",
+      "title": "What pop-up cities have proven so far, and how to make it travel further",
+      "room": "Jasmine Stage 4",
+      "start": 1793942400000,
+      "doNotRecord": false,
+      "card": "cards/R8NEAK.jpg"
+    },
+    {
+      "code": "3PCENG",
+      "id": "best-open-source-practices-from-the-linux-foundation",
+      "title": "Best Open Source Practices from the Linux Foundation",
+      "room": "Lotus Stage 1",
+      "start": 1793943000000,
+      "doNotRecord": false,
+      "card": "cards/3PCENG.jpg"
+    },
+    {
+      "code": "SASDDR",
+      "id": "cross-referencing-clients-with-llms-how-we-shipped-quic-in-teku",
+      "title": "Cross-Referencing Clients with LLMs: How We Shipped QUIC in Teku",
+      "room": "Lotus Stage 3",
+      "start": 1793943000000,
+      "doNotRecord": false,
+      "card": "cards/SASDDR.jpg"
+    },
+    {
+      "code": "7YMTZP",
+      "id": "how-real-people-are-really-living-on-crypto-in-real-life",
+      "title": "How Real People Are Really Living On Crypto In Real Life",
+      "room": "Workshop 2",
+      "start": 1793943000000,
+      "doNotRecord": false,
+      "card": "cards/7YMTZP.jpg"
+    },
+    {
+      "code": "FZX97Y",
+      "id": "how-to-get-hired-as-a-junior-in-tech",
+      "title": "How to get hired as a junior in tech",
+      "room": "Community Led Stage",
+      "start": 1793943000000,
+      "doNotRecord": false,
+      "card": "cards/FZX97Y.jpg"
+    },
+    {
+      "code": "UBVWKD",
+      "id": "stealth-addresses-for-everyone-ens-as-the-universal-stealth-meta-registry",
+      "title": "Stealth Addresses for Everyone: ENS as the Universal Stealth Meta-Registry",
+      "room": "Lotus Stage 2",
+      "start": 1793943000000,
+      "doNotRecord": false,
+      "card": "cards/UBVWKD.jpg"
+    },
+    {
+      "code": "KFG7ZQ",
+      "id": "the-loop-economy-a-universal-combinatorial-marketplace-without-a-platform",
+      "title": "The Loop Economy: A Universal Combinatorial Marketplace Without a Platform",
+      "room": "Lightning Stage",
+      "start": 1793943000000,
+      "doNotRecord": false,
+      "card": "cards/KFG7ZQ.jpg"
+    },
+    {
+      "code": "QB3PET",
+      "id": "what-can-ethereum-do-for-india-a-live-deliberation-workshop",
+      "title": "What Can Ethereum Do for India? A Live Deliberation Workshop",
+      "room": "Workshop 1",
+      "start": 1793943000000,
+      "doNotRecord": false,
+      "card": "cards/QB3PET.jpg"
+    },
+    {
+      "code": "7UWDPJ",
+      "id": "your-protocol-cant-be-censored-your-users-can",
+      "title": "Your Protocol Can’t Be Censored. Your Users Can.",
+      "room": "Lightning Stage",
+      "start": 1793943600000,
+      "doNotRecord": false,
+      "card": "cards/7UWDPJ.jpg"
+    },
+    {
+      "code": "PP9EVV",
+      "id": "art-as-a-tool-for-freedom-infinite-garden-artist-cohort-group",
+      "title": "Art as a tool for Freedom - Infinite Garden Artist Cohort group",
+      "room": "Jasmine Stage 4",
+      "start": 1793944200000,
+      "doNotRecord": false,
+      "card": "cards/PP9EVV.jpg"
+    },
+    {
+      "code": "VVW9FX",
+      "id": "cypher-atlas-map-of-the-cyphepunk-movement",
+      "title": "Cypher Atlas, map of the cyphepunk movement",
+      "room": "Lightning Stage",
+      "start": 1793944200000,
+      "doNotRecord": false,
+      "card": "cards/VVW9FX.jpg"
+    },
+    {
+      "code": "SPPJS8",
+      "id": "fe-and-the-mythical-compiler",
+      "title": "Fe and the Mythical Compiler",
+      "room": "Lotus Stage 1",
+      "start": 1793944800000,
+      "doNotRecord": false,
+      "card": "cards/SPPJS8.jpg"
+    },
+    {
+      "code": "UFT8C9",
+      "id": "human-rights-in-the-age-of-technofeudalism",
+      "title": "Human rights in the age of technofeudalism",
+      "room": "Lightning Stage",
+      "start": 1793944800000,
+      "doNotRecord": true,
+      "card": "cards/UFT8C9.jpg"
+    },
+    {
+      "code": "BWCZLJ",
+      "id": "proof-of-personhood-without-scanning-your-eyeballs",
+      "title": "⁠Proof of personhood without scanning your eyeballs",
+      "room": "Lotus Stage 2",
+      "start": 1793944800000,
+      "doNotRecord": false,
+      "card": "cards/BWCZLJ.jpg"
+    },
+    {
+      "code": "MATVZB",
+      "id": "speeding-up-ethereum-client-development-with-llms",
+      "title": "Speeding Up Ethereum Client Development with LLMs",
+      "room": "Lotus Stage 3",
+      "start": 1793944800000,
+      "doNotRecord": false,
+      "card": "cards/MATVZB.jpg"
+    },
+    {
+      "code": "QZMC3J",
+      "id": "huzzhouse-house-sundowners-and-techno-afters",
+      "title": "huzzhouse [house sundowners & techno afters]",
+      "room": "Music stage",
+      "start": 1793945400000,
+      "doNotRecord": false,
+      "card": "cards/QZMC3J.jpg"
+    },
+    {
+      "code": "FAULEV",
+      "id": "lessons-learned-shipping-proof-of-personhood-on-taiwans-citizen-digital-certificate",
+      "title": "Lessons learned shipping proof of personhood on Taiwan's citizen digital certificate",
+      "room": "Lotus Stage 2",
+      "start": 1793945400000,
+      "doNotRecord": false,
+      "card": "cards/FAULEV.jpg"
+    },
+    {
+      "code": "NAM38X",
+      "id": "decentralized-media",
+      "title": "Decentralized Media",
+      "room": "Jasmine Stage 4",
+      "start": 1793946000000,
+      "doNotRecord": false,
+      "card": "cards/NAM38X.jpg"
+    },
+    {
+      "code": "QVBBVF",
+      "id": "the-graveyard-of-digital-identity-why-every-root-of-trust-fails-and-whats-left",
+      "title": "The Graveyard of Digital Identity: Why Every Root of Trust Fails and What's Left",
+      "room": "Lotus Stage 2",
+      "start": 1793946000000,
+      "doNotRecord": false,
+      "card": "cards/QVBBVF.jpg"
+    },
+    {
+      "code": "UCRQPP",
+      "id": "autoresearch-for-zk-optimization",
+      "title": "Autoresearch for ZK Optimization",
+      "room": "Lotus Stage 3",
+      "start": 1793946600000,
+      "doNotRecord": false,
+      "card": "cards/UCRQPP.jpg"
+    },
+    {
+      "code": "NSEV3A",
+      "id": "help-watch-the-wallets-building-the-crops-legible-dataset",
+      "title": "Help watch the wallets: Building the CROPS-legible dataset",
+      "room": "Workshop 2",
+      "start": 1793946600000,
+      "doNotRecord": false,
+      "card": "cards/NSEV3A.jpg"
+    },
+    {
+      "code": "W8HAES",
+      "id": "in-the-future-music-and-culture-is-free",
+      "title": "In the future music and culture is free",
+      "room": "Jasmine Stage 4",
+      "start": 1793946600000,
+      "doNotRecord": false,
+      "card": "cards/W8HAES.jpg"
+    },
+    {
+      "code": "B9G98T",
+      "id": "when-many-to-many-isnt-mixing-measuring-privacy-in-shielded-utxo-systems",
+      "title": "When Many-to-Many Isn't Mixing: Measuring Privacy in Shielded UTXO Systems",
+      "room": "Lotus Stage 2",
+      "start": 1793947800000,
+      "doNotRecord": false,
+      "card": "cards/B9G98T.jpg"
+    },
+    {
+      "code": "RVAAXG",
+      "id": "oso-the-long-goodbye-afternoon",
+      "title": "🎼 🌺 OSO — the long goodbye [afternoon]",
+      "room": "Music stage",
+      "start": 1793948400000,
+      "doNotRecord": false,
+      "card": "cards/RVAAXG.jpg"
+    },
+    {
+      "code": "HQVBBE",
+      "id": "teaching-an-ai-agent-everything-it-needs-to-know-about-ethereum-then-letting-it-rip",
+      "title": "Teaching an AI Agent Everything It Needs to Know About Ethereum, Then Letting It Rip",
+      "room": "Lotus Stage 3",
+      "start": 1793948400000,
+      "doNotRecord": false,
+      "card": "cards/HQVBBE.jpg"
+    },
+    {
+      "code": "EJHDKJ",
+      "id": "builder-showcase",
+      "title": "Builder Showcase",
+      "room": "Community Led Stage",
+      "start": 1793950200000,
+      "doNotRecord": false,
+      "card": "cards/EJHDKJ.jpg"
+    },
+    {
+      "code": "JCGTDY",
+      "id": "swap-your-rpc-hands-on-verified-reads-simulation-and-privacy",
+      "title": "Swap Your RPC: Hands-On Verified Reads, Simulation, and Privacy",
+      "room": "Workshop 1",
+      "start": 1793950200000,
+      "doNotRecord": false,
+      "card": "cards/JCGTDY.jpg"
+    },
+    {
+      "code": "8WAE9N",
+      "id": "why-your-observability-stack-is-making-your-agents-stupid-and-ours-isnt-anymore",
+      "title": "Why your observability stack is making your agents stupid (and ours isn't anymore)",
+      "room": "Lotus Stage 3",
+      "start": 1793950200000,
+      "doNotRecord": false,
+      "card": "cards/8WAE9N.jpg"
+    },
+    {
+      "code": "L3GYNM",
+      "id": "your-device-doesnt-have-to-trust-its-manufacturer",
+      "title": "Your Device Doesn't Have to Trust Its Manufacturer",
+      "room": "Lotus Stage 1",
+      "start": 1793950200000,
+      "doNotRecord": false,
+      "card": "cards/L3GYNM.jpg"
+    },
+    {
+      "code": "AZ7MSC",
+      "id": "relational-ai-a-plural-governance-framework-for-ai-agents",
+      "title": "Relational AI: A Plural Governance Framework for AI Agents",
+      "room": "Jasmine Stage 4",
+      "start": 1793952000000,
+      "doNotRecord": false,
+      "card": "cards/AZ7MSC.jpg"
+    },
+    {
+      "code": "Z3G7WS",
+      "id": "the-wallet-is-the-new-trust-boundary-verifying-ethereum-at-the-edge",
+      "title": "The Wallet Is the New Trust Boundary: Verifying Ethereum at the Edge",
+      "room": "Lotus Stage 1",
+      "start": 1793952000000,
+      "doNotRecord": false,
+      "card": "cards/Z3G7WS.jpg"
+    },
+    {
+      "code": "XJWZLS",
+      "id": "building-the-ethereum-universal-signer",
+      "title": "Building the Ethereum Universal Signer",
+      "room": "Lotus Stage 1",
+      "start": 1793953800000,
+      "doNotRecord": false,
+      "card": "cards/XJWZLS.jpg"
+    },
+    {
+      "code": "AY7XJC",
+      "id": "defipunk-beyond-code-is-law-what-kind-of-social-layer-is-possible",
+      "title": "Defipunk Beyond “Code Is Law”: What Kind of Social Layer Is Possible?",
+      "room": "Workshop 1",
+      "start": 1793953800000,
+      "doNotRecord": false,
+      "card": "cards/AY7XJC.jpg"
+    },
+    {
+      "code": "QNAVXJ",
+      "id": "grapheneos-workshop-secure-by-design-private-by-default",
+      "title": "GrapheneOS Workshop: Secure by Design, Private by Default",
+      "room": "Workshop 2",
+      "start": 1793953800000,
+      "doNotRecord": false,
+      "card": "cards/QNAVXJ.jpg"
+    },
+    {
+      "code": "PMCTTU",
+      "id": "ten-ways-daos-get-owned-a-governor-maintainers-threat-model",
+      "title": "Ten Ways DAOs Get Owned: A Governor Maintainer's Threat Model",
+      "room": "Lotus Stage 2",
+      "start": 1793953800000,
+      "doNotRecord": false,
+      "card": "cards/PMCTTU.jpg"
+    },
+    {
+      "code": "3DCAKL",
+      "id": "building-the-pq1-the-first-verifiable-post-quantum-hardware-wallet",
+      "title": "Building the PQ1: The first verifiable post quantum hardware wallet",
+      "room": "Lotus Stage 1",
+      "start": 1793955600000,
+      "doNotRecord": false,
+      "card": "cards/3DCAKL.jpg"
+    },
+    {
+      "code": "DWAERY",
+      "id": "voting-privacy",
+      "title": "Voting Privacy",
+      "room": "Lotus Stage 2",
+      "start": 1793955600000,
+      "doNotRecord": false,
+      "card": "cards/DWAERY.jpg"
+    },
+    {
+      "code": "NLAK7U",
+      "id": "security-by-obscurity-is-dead-how-llms-can-take-over-hardware",
+      "title": "Security by obscurity is dead: How LLMs can take over hardware",
+      "room": "Lotus Stage 1",
+      "start": 1793957400000,
+      "doNotRecord": false,
+      "card": "cards/NLAK7U.jpg"
+    },
+    {
+      "code": "FGGY3S",
+      "id": "closing-ceremony",
+      "title": "Closing Ceremony",
+      "room": "Music stage",
+      "start": 1793961000000,
+      "doNotRecord": false,
+      "card": "cards/FGGY3S.jpg"
+    }
+  ]
+}

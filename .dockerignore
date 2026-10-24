@@ -1,0 +1,7 @@
+node_modules
+data
+out
+.env
+.git
+*.mov
+Devcon-8-India-AV-*.mp4

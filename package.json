@@ -1,0 +1,31 @@
+{
+  "name": "devcon-animation",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "remotion studio",
+    "sync": "NODE_NO_WARNINGS=1 tsx scripts/sync.ts",
+    "status": "NODE_NO_WARNINGS=1 tsx scripts/status.ts",
+    "intro": "tsx scripts/intro-meta.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.535",
+    "@remotion/cli": "^4.0.535",
+    "@remotion/media": "^4.0.535",
+    "@remotion/renderer": "^4.0.535",
+    "dotenv": "^18.0.9",
+    "google-auth-library": "^11.3.1",
+    "googleapis": "^188.0.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "^4.0.535"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "packageManager": "pnpm@11.17.0"
+}
