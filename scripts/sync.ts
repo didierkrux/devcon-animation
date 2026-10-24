@@ -7,7 +7,7 @@
 //   pnpm sync --dry-run          # show the schedule diff and what would render; changes nothing
 //   pnpm sync --no-upload        # render but don't touch Drive
 //   pnpm sync --every 30         # run forever, every 30 minutes (the container's command)
-import { copyFileSync, existsSync, mkdtempSync, openSync, readFileSync, rmSync, writeFileSync, closeSync } from "node:fs";
+import { closeSync, copyFileSync, existsSync, mkdirSync, mkdtempSync, openSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import type { Talk, TalksFile } from "../src/types";
@@ -49,6 +49,7 @@ function toTalk(t: TalkRow): Talk {
 // --- lock: one run at a time per data dir --------------------------------------
 
 function acquireLock(): () => void {
+  mkdirSync(config.dataDir, { recursive: true });
   for (let attempt = 0; attempt < 2; attempt++) {
     try {
       const fd = openSync(config.lockFile, "wx");
@@ -84,6 +85,9 @@ async function runOnce(db: Db, dryRun: boolean): Promise<void> {
   };
 
   try {
+    mkdirSync(config.cardsDir, { recursive: true });
+    mkdirSync(config.outDir, { recursive: true });
+
     // 1. Schedule diff
     const sessions = (await fetchSessions()).filter((s) => startMs(s) !== null);
     if (sessions.length === 0) throw new Error(`Devcon API has no scheduled sessions for "${config.event}"`);

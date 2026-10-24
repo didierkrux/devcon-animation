@@ -63,7 +63,11 @@ export class AvDrive {
   constructor() {
     const auth = new google.auth.JWT({
       email: requireEnv("GOOGLE_CLIENT_EMAIL"),
-      key: requireEnv("GOOGLE_PRIVATE_KEY").replace(/\\n/g, "\n"),
+      // .env files keep the PEM's newlines as "\n"; some hosts (Coolify) escape
+      // that again to "\\n" and/or keep the surrounding quotes.
+      key: requireEnv("GOOGLE_PRIVATE_KEY")
+        .replace(/^"|"$/g, "")
+        .replace(/\\+n/g, "\n"),
       scopes: ["https://www.googleapis.com/auth/drive"],
     });
     this.drive = google.drive({ version: "v3", auth });
