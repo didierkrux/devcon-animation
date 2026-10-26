@@ -3,7 +3,7 @@
 Per-talk intro videos for Devcon 8: the intro animation plays, its transparent iris opens onto the talk's official AV card (from devcon.org), and the card holds. Each video lands in the AV team's Drive next to the talk's intro card:
 
 ```
-AV/$$EVENT/<Room>/<Day N - Mon D>/Intro Cards/HH.mm <Title> [CODE].jpg       (devcon-api av-assets)
+AV/$$EVENT/<Room>/<Day N - Mon D>/YouTube Cards/HH.mm <Title> [CODE].jpg     (devcon-api av-assets)
 AV/$$EVENT/<Room>/<Day N - Mon D>/Intro Animation/HH.mm <Title> [CODE] (1920x1080).mp4   (this repo, every talk)
 AV/$$EVENT/<Room>/<Day N - Mon D>/Intro Animation/HH.mm <Title> [CODE] (3192x1512).mp4   (this repo, stage screen size)
 ```
@@ -24,7 +24,8 @@ pnpm sync                  # one run
 pnpm sync RPAPTP           # render/upload only these codes (diff still covers all)
 pnpm sync --dry-run        # show the schedule diff, change nothing
 pnpm sync --no-upload      # render without touching Drive
-pnpm sync --every 30       # loop (what the container runs)
+pnpm sync --every 30       # loop
+pnpm sync --every 30 --port 3000   # loop + HTTP API to start runs on demand (what the container runs)
 
 pnpm status                # overview, recent runs, latest changes
 pnpm status --run 12       # everything that happened in run 12
@@ -44,7 +45,23 @@ pnpm sync
 
 ## Deploy (Coolify)
 
-Build from this repo's `Dockerfile`, mount a persistent volume at `/data`, and set the variables from `.env.example`. The container runs `pnpm sync --every ${SYNC_EVERY_MINUTES:-30}`. One run at a time is enforced with a lock file in `/data`.
+Build from this repo's `Dockerfile`, mount a persistent volume at `/data`, and set the variables from `.env.example`. The container runs `pnpm sync --every ${SYNC_EVERY_MINUTES:-30} --port ${PORT:-3000}`. One run at a time is enforced with a lock file in `/data`.
+
+## Starting a run on demand
+
+Set `TRIGGER_TOKEN` and the container answers on `PORT` (3000):
+
+```bash
+# full run now (restarts the timer)
+curl -X POST -H "Authorization: Bearer $TRIGGER_TOKEN" https://<host>/run
+# only re-render/upload these talks (the schedule diff still covers all)
+curl -X POST -H "Authorization: Bearer $TRIGGER_TOKEN" -H 'content-type: application/json' \
+  -d '{"codes":["RPAPTP","KWXPU8"]}' https://<host>/run
+# running / queued / next scheduled / last run
+curl -H "Authorization: Bearer $TRIGGER_TOKEN" https://<host>/status
+```
+
+A request during a run is queued and starts right after it; several requests merge into one run. `GET /health` needs no token.
 
 ## Replacing the intro animation
 

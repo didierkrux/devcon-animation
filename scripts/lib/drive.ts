@@ -1,5 +1,6 @@
-// The AV team's Drive. Intro cards (made by devcon-api's av-assets script) live at
-//   $$EVENT/<Room>/<Day N - Mon D>/Intro Cards/HH.mm <Title> [CODE].jpg
+// The AV team's Drive. Talk cards (made by devcon-api's av-assets script) live at
+//   $$EVENT/<Room>/<Day N - Mon D>/YouTube Cards/HH.mm <Title> [CODE].jpg
+// (called "Intro Cards" before 26 Oct)
 // and animations go next to them, with the same name:
 //   $$EVENT/<Room>/<Day N - Mon D>/Intro Animation/HH.mm <Title> [CODE].mp4
 //
@@ -12,7 +13,7 @@ import { google, type drive_v3 } from "googleapis";
 import { requireEnv } from "./config";
 
 const EVENT_FOLDER = "$$EVENT";
-const CARDS_FOLDER = "Intro Cards";
+const CARDS_FOLDERS = ["YouTube Cards", "Intro Cards"];
 export const ANIMATION_FOLDER = "Intro Animation";
 const SEED_NAME = process.env.AV_DRIVE_SEED_NAME ?? "_public placeholder (DON'T DELETE).png";
 const FOLDER_MIME = "application/vnd.google-apps.folder";
@@ -106,7 +107,7 @@ export class AvDrive {
     await pool(rooms, 3, async (room) => {
       for (const day of await this.folders(room.id!)) {
         const sub = await this.folders(day.id!);
-        const cardsFolder = sub.find((f) => f.name === CARDS_FOLDER);
+        const cardsFolder = sub.find((f) => CARDS_FOLDERS.includes(f.name ?? ""));
         const animFolder = sub.find((f) => f.name === ANIMATION_FOLDER);
         const where = `${room.name}/${day.name}`;
         if (cardsFolder) {
