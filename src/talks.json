@@ -920,6 +920,15 @@
       "card": "cards/H9HGER.jpg"
     },
     {
+      "code": "UNTZCG",
+      "id": "post-quantum-multi-factor-wallet-designed-for-humans",
+      "title": "Post-Quantum Multi-Factor Wallet Designed for Humans",
+      "room": "Lightning Stage",
+      "start": 1793770800000,
+      "doNotRecord": false,
+      "card": "cards/UNTZCG.jpg"
+    },
+    {
       "code": "VNLG3N",
       "id": "from-vanity-to-poison-the-evolution-of-address-poisoning-attacks",
       "title": "From vanity to poison: the evolution of address poisoning attacks",
