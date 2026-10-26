@@ -53,12 +53,12 @@ Set `TRIGGER_TOKEN` and the container answers on `PORT` (3000):
 
 ```bash
 # full run now (restarts the timer)
-curl -X POST -H "Authorization: Bearer $TRIGGER_TOKEN" https://<host>/run
+curl -X POST -H "Authorization: Bearer $TRIGGER_TOKEN" https://devcon-intro.pblvrt.com/run
 # only re-render/upload these talks (the schedule diff still covers all)
 curl -X POST -H "Authorization: Bearer $TRIGGER_TOKEN" -H 'content-type: application/json' \
-  -d '{"codes":["RPAPTP","KWXPU8"]}' https://<host>/run
+  -d '{"codes":["RPAPTP","KWXPU8"]}' https://devcon-intro.pblvrt.com/run
 # running / queued / next scheduled / last run
-curl -H "Authorization: Bearer $TRIGGER_TOKEN" https://<host>/status
+curl -H "Authorization: Bearer $TRIGGER_TOKEN" https://devcon-intro.pblvrt.com/status
 ```
 
 A request during a run is queued and starts right after it; several requests merge into one run. `GET /health` needs no token.

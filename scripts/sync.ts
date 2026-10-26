@@ -6,17 +6,19 @@
 //   pnpm sync RPAPTP KWXPU8      # limit render/upload to these talk codes (schedule diff still covers all)
 //   pnpm sync --dry-run          # show the schedule diff and what would render; changes nothing
 //   pnpm sync --no-upload        # render but don't touch Drive
-//   pnpm sync --every 30         # run forever, every 30 minutes (the container's command)
+//   pnpm sync --every 30         # run forever, every 30 minutes
+//   pnpm sync --every 30 --port 3000   # same, plus an HTTP API to start runs on demand (the container's command)
 import { closeSync, copyFileSync, existsSync, mkdirSync, mkdtempSync, openSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import type { Talk, TalksFile } from "../src/types";
 import { sizeTag, variantsFor as allVariantsFor, type Variant } from "../src/screens";
 import { config } from "./lib/config";
-import { Db, nowIso, type LogKind, type OutputRow, type TalkRow } from "./lib/db";
+import { Db, nowIso, type LogKind, type OutputRow, type RunRow, type TalkRow } from "./lib/db";
 import { fetchCard, fetchSessions, sessionHash, startMs, type ApiSession } from "./lib/devcon";
 import { ANIMATION_FOLDER, AvDrive, animationName, pool, type AnimFile } from "./lib/drive";
 import { Renderer, md5File, renderBaseKey, renderKey } from "./lib/render";
+import { startServer } from "./lib/server";
 
 const args = process.argv.slice(2);
 const flag = (name: string) => args.includes(name);
@@ -25,8 +27,12 @@ const NO_UPLOAD = flag("--no-upload");
 const everyIdx = args.indexOf("--every");
 const EVERY_MIN = everyIdx >= 0 ? Number(args[everyIdx + 1]) : null;
 if (EVERY_MIN !== null && !(EVERY_MIN > 0)) throw new Error(`--every needs a number of minutes, got "${args[everyIdx + 1]}"`);
+const portIdx = args.indexOf("--port");
+const PORT = portIdx >= 0 ? Number(args[portIdx + 1]) : null;
+if (PORT !== null && !(Number.isInteger(PORT) && PORT > 0 && PORT < 65536)) throw new Error(`--port needs a port number, got "${args[portIdx + 1]}"`);
+if (PORT !== null && EVERY_MIN === null) throw new Error("--port only works together with --every");
 const ONLY = new Set(
-  args.filter((a, i) => !a.startsWith("--") && args[i - 1] !== "--every").map((c) => c.toUpperCase()),
+  args.filter((a, i) => !a.startsWith("--") && args[i - 1] !== "--every" && args[i - 1] !== "--port").map((c) => c.toUpperCase()),
 );
 
 const cardPath = (code: string) => path.join(config.cardsDir, `${code}.jpg`);
@@ -77,7 +83,7 @@ function acquireLock(): () => void {
 
 // --- one run ---------------------------------------------------------------------
 
-async function runOnce(db: Db, dryRun: boolean): Promise<void> {
+async function runOnce(db: Db, dryRun: boolean, only: Set<string>): Promise<void> {
   const runId = db.startRun();
   const counts: Record<string, number> = {};
   const bump = (k: string) => (counts[k] = (counts[k] ?? 0) + 1);
@@ -138,7 +144,7 @@ async function runOnce(db: Db, dryRun: boolean): Promise<void> {
     }
 
     if (dryRun) {
-      const candidates = db.talks().filter((t) => isActive(t) && !t.do_not_record && (!ONLY.size || ONLY.has(t.code)));
+      const candidates = db.talks().filter((t) => isActive(t) && !t.do_not_record && (!only.size || only.has(t.code)));
       const base = renderBaseKey();
       const stale = candidates.flatMap((t) =>
         variantsFor(t.room).filter((v) => !t.card_md5 || renderKey(base, t.card_md5, v) !== db.output(t.code, sizeTag(v))?.render_key),
@@ -259,7 +265,7 @@ async function runOnce(db: Db, dryRun: boolean): Promise<void> {
     const base = renderBaseKey();
     type Job = { t: TalkRow; v: Variant; out: OutputRow | undefined };
     const jobs: Job[] = active
-      .filter((t) => !t.do_not_record && (!ONLY.size || ONLY.has(t.code)))
+      .filter((t) => !t.do_not_record && (!only.size || only.has(t.code)))
       .flatMap((t) => variantsFor(t.room).map((v) => ({ t, v, out: db.output(t.code, sizeTag(v)) })))
       .filter(({ t, v, out }) => {
         const key = renderKey(base, t.card_md5!, v);
@@ -304,7 +310,7 @@ async function runOnce(db: Db, dryRun: boolean): Promise<void> {
     // 4. Drive: everything not handled during rendering (unchanged talks whose
     // Drive copy is missing or misplaced, removed and do-not-record talks).
     if (drive) {
-      const rows = db.talks().filter((t) => !ONLY.size || ONLY.has(t.code));
+      const rows = db.talks().filter((t) => !only.size || only.has(t.code));
       await pool(rows, 3, (t) => syncDrive(t.code));
     }
 
@@ -340,7 +346,7 @@ async function dryRun() {
       src.close();
     }
     const db = new Db(copy);
-    await runOnce(db, true);
+    await runOnce(db, true, ONLY);
     const entries = db.logFor({ runId: db.runs(1)[0].id });
     for (const e of entries.slice(0, 300)) {
       console.log(`  ${e.kind.padEnd(13)} ${e.code ?? ""}: ${e.before ?? "∅"} → ${e.after ?? "∅"}`);
@@ -350,6 +356,77 @@ async function dryRun() {
     db.close();
   } finally {
     rmSync(dir, { recursive: true, force: true });
+  }
+}
+
+// --- loop: timer runs plus on-demand runs from the HTTP API -----------------------
+
+// A queued run: "all" for a full run, or the talk codes to limit it to.
+type Queued = "all" | Set<string>;
+
+function runLabel(only: Set<string>) {
+  return only.size ? `run for ${[...only].join(", ")}` : "full run";
+}
+
+async function loop(everyMin: number, port: number | null) {
+  let queued: Queued | null = null;
+  let current: { only: string[]; startedAt: string } | null = null;
+  let lastRun: RunRow | null = null;
+  let nextAt = Date.now();
+  let wake: (() => void) | null = null;
+
+  if (port !== null) {
+    startServer(port, process.env.TRIGGER_TOKEN || undefined, {
+      trigger(codes) {
+        if (codes === null || queued === "all") queued = "all";
+        else queued = new Set([...(queued ?? []), ...codes]);
+        console.log(`Run requested over HTTP: ${codes ? codes.join(", ") : "full"}${current ? " (after the current run)" : ""}`);
+        wake?.();
+        return { queued: queued === "all" ? "all" : [...queued], running: current !== null };
+      },
+      status() {
+        return {
+          running: current,
+          queued: queued === null ? null : queued === "all" ? "all" : [...queued],
+          nextScheduledRun: new Date(nextAt).toISOString(),
+          everyMinutes: everyMin,
+          lastRun: lastRun && { ...lastRun, summary: lastRun.summary ? JSON.parse(lastRun.summary) : null },
+        };
+      },
+    });
+  }
+
+  for (;;) {
+    // Wait for the timer or an HTTP request, whichever comes first.
+    if (queued === null && Date.now() < nextAt) {
+      await new Promise<void>((resolve) => {
+        const timer = setTimeout(done, nextAt - Date.now());
+        function done() {
+          clearTimeout(timer);
+          wake = null;
+          resolve();
+        }
+        wake = done;
+      });
+    }
+    const only: Set<string> = queued === null || queued === "all" ? new Set() : queued;
+    queued = null;
+    // A full run, timed or requested, restarts the timer.
+    if (only.size === 0) nextAt = Date.now() + everyMin * 60_000;
+
+    current = { only: [...only], startedAt: nowIso() };
+    console.log(`Starting ${runLabel(only)}`);
+    const db = new Db(config.dbFile);
+    try {
+      await runOnce(db, false, only);
+    } catch (err) {
+      console.error(`Run failed: ${errMsg(err)}`);
+    } finally {
+      lastRun = db.runs(1)[0] ?? null;
+      db.close();
+      current = null;
+    }
+    if (queued === null) console.log(`Next run at ${new Date(nextAt).toISOString()}`);
   }
 }
 
@@ -363,21 +440,16 @@ async function main() {
   process.on("SIGINT", stop);
   process.on("SIGTERM", stop);
   try {
-    do {
-      const db = new Db(config.dbFile);
-      try {
-        await runOnce(db, false);
-      } catch (err) {
-        console.error(`Run failed: ${errMsg(err)}`);
-        if (EVERY_MIN === null) process.exitCode = 1;
-      } finally {
-        db.close();
-      }
-      if (EVERY_MIN !== null) {
-        console.log(`Next run in ${EVERY_MIN} min (${new Date(Date.now() + EVERY_MIN * 60_000).toISOString()})`);
-        await new Promise((r) => setTimeout(r, EVERY_MIN * 60_000));
-      }
-    } while (EVERY_MIN !== null);
+    if (EVERY_MIN !== null) return await loop(EVERY_MIN, PORT);
+    const db = new Db(config.dbFile);
+    try {
+      await runOnce(db, false, ONLY);
+    } catch (err) {
+      console.error(`Run failed: ${errMsg(err)}`);
+      process.exitCode = 1;
+    } finally {
+      db.close();
+    }
   } finally {
     release();
   }

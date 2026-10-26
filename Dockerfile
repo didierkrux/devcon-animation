@@ -19,5 +19,10 @@ COPY . .
 ENV DATA_DIR=/data NODE_ENV=production
 VOLUME /data
 
-# SYNC_EVERY_MINUTES (default 30) sets the schedule.
-CMD ["sh", "-c", "exec pnpm sync --every ${SYNC_EVERY_MINUTES:-30}"]
+# SYNC_EVERY_MINUTES (default 30) sets the schedule; POST /run on PORT starts
+# a run on demand (needs TRIGGER_TOKEN, see scripts/lib/server.ts).
+ENV PORT=3000
+EXPOSE 3000
+HEALTHCHECK --interval=30s --timeout=5s --start-period=30s \
+  CMD node -e "fetch('http://127.0.0.1:'+process.env.PORT+'/health').then(r=>process.exit(r.ok?0:1),()=>process.exit(1))"
+CMD ["sh", "-c", "exec pnpm sync --every ${SYNC_EVERY_MINUTES:-30} --port ${PORT}"]
