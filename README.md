@@ -8,7 +8,7 @@ AV/$$EVENT/<Room>/<Day N - Mon D>/Intro Animation/HH.mm <Title> [CODE] (1920x108
 AV/$$EVENT/<Room>/<Day N - Mon D>/Intro Animation/HH.mm <Title> [CODE] (3192x1512).mp4   (this repo, stage screen size)
 ```
 
-Screen sizes per stage are in `src/screens.ts` (AV spec, 22 Oct): Lotus 1/3 3192x1512, Lotus 2 and Main Stage 4032x1512, Jasmine Stage 4 1680x1008. The 16:9 intro and card scale to fill, so wider screens crop the top and bottom. Changing a size there re-renders and renames that stage's files on the next sync.
+Screen sizes per stage are in `src/screens.ts` (AV spec, 22 Oct): Lotus 1/3 3192x1512, Lotus 2 and Main Stage 4032x1512, Jasmine Stage 4 1680x1008. The 16:9 intro and card scale to fill, so wider screens crop the top and bottom. Changing a size there re-renders and renames that stage's files on the next sync. Set `STREAM_ONLY=1` to make only the 1920x1080 versions.
 
 ## How a sync run works
 

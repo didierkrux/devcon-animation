@@ -19,6 +19,9 @@ export const config = {
   devconApi: process.env.DEVCON_API_URL ?? "https://api.devcon.org",
   devconSite: process.env.DEVCON_SITE_URL ?? "https://devcon.org",
   holdSeconds: positive("HOLD_SECONDS", 5),
+  // Only make the 1920x1080 stream version; stage screen sizes are skipped
+  // (and any already in Drive are trashed as no longer wanted).
+  streamOnly: ["1", "true"].includes((process.env.STREAM_ONLY ?? "").toLowerCase()),
 
   // Committed inputs
   introFile: path.join(root, "assets/intro.webm"),

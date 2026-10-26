@@ -1,6 +1,6 @@
 // Reads the intro's alpha channel and records when the transparent iris opens
-// (average opacity starts dropping) and when the intro is fully clear,
-// so the talk card can fade in underneath it over exactly that window.
+// (average opacity starts dropping) and when the intro is fully clear. The talk
+// card switches on underneath at the first, so the iris never shows black.
 //
 // Usage: pnpm intro [path/to/intro.webm]   (defaults to assets/intro.webm)
 // Writes src/intro-meta.json.
@@ -51,10 +51,11 @@ for (const block of stats.split(/^frame:/m).slice(1)) {
 }
 if (frames.length === 0) throw new Error(`No frames decoded from ${input}`);
 
-// The first frame can already have a few transparent edge pixels, so the iris
-// "opens" once average opacity falls measurably below that baseline.
+// The first frame already has a few transparent edge pixels (kept black until
+// the card switches on), so the iris "opens" once average opacity falls below
+// that baseline at all.
 const baseline = frames[0].avg;
-const open = frames.find((f) => f.avg < baseline - 0.01);
+const open = frames.find((f) => f.avg < baseline);
 const clear = frames.find((f) => f.max < 8);
 if (!open || !clear) {
   throw new Error(

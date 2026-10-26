@@ -1,10 +1,8 @@
 import React from "react";
 import {
   AbsoluteFill,
-  Easing,
   Img,
   OffthreadVideo,
-  interpolate,
   staticFile,
   useCurrentFrame,
   useVideoConfig,
@@ -38,13 +36,10 @@ export const TalkIntro: React.FC<TalkIntroProps> = ({ talk }) => {
   const { fps } = useVideoConfig();
   const t = frame / fps;
 
-  // The card sits under the intro and fades up while the intro's transparent
-  // iris opens over it.
-  const cardOpacity = interpolate(t, [intro.revealStart, intro.revealEnd], [0, 1], {
-    extrapolateLeft: "clamp",
-    extrapolateRight: "clamp",
-    easing: Easing.inOut(Easing.quad),
-  });
+  // The card sits under the intro at full strength from the first frame the
+  // iris opens, so the opening shows the card, not black. Before that it stays
+  // hidden: the intro has a few transparent pixels on its edges.
+  const cardOpacity = t >= intro.revealStart ? 1 : 0;
 
   return (
     <AbsoluteFill style={{ backgroundColor: "black" }}>

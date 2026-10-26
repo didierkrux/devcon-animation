@@ -11,7 +11,7 @@ import { closeSync, copyFileSync, existsSync, mkdirSync, mkdtempSync, openSync, 
 import os from "node:os";
 import path from "node:path";
 import type { Talk, TalksFile } from "../src/types";
-import { sizeTag, variantsFor, type Variant } from "../src/screens";
+import { sizeTag, variantsFor as allVariantsFor, type Variant } from "../src/screens";
 import { config } from "./lib/config";
 import { Db, nowIso, type LogKind, type OutputRow, type TalkRow } from "./lib/db";
 import { fetchCard, fetchSessions, sessionHash, startMs, type ApiSession } from "./lib/devcon";
@@ -32,6 +32,8 @@ const ONLY = new Set(
 const cardPath = (code: string) => path.join(config.cardsDir, `${code}.jpg`);
 const cardRel = (code: string) => `cards/${code}.jpg`;
 const isActive = (t: TalkRow) => t.removed_at === null;
+const variantsFor = (room: string) =>
+  config.streamOnly ? allVariantsFor(room).filter((v) => v.id === "1080p") : allVariantsFor(room);
 const errMsg = (e: unknown) => (e instanceof Error ? e.message : String(e));
 
 function toTalk(t: TalkRow): Talk {
